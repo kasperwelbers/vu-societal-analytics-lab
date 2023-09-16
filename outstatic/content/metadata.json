@@ -1,6 +1,6 @@
 {
-  "commit": "a4da4a860e6dee6a31bd1daf1fc294f508385711",
-  "generated": "2023-09-16T08:11:23.350Z",
+  "commit": "b1312b68641d673089c42e298b152cd0b50e2db5",
+  "generated": "2023-09-16T08:18:05.265Z",
   "metadata": [
     {
       "__outstatic": {
@@ -140,6 +140,24 @@
         }
       ],
       "title": "Learn how to create your blog with Outstatic"
+    },
+    {
+      "__outstatic": {
+        "commit": "b1312b68641d673089c42e298b152cd0b50e2db5",
+        "hash": "1903589401",
+        "path": "outstatic/content/tests/test.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+      },
+      "collection": "tests",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2023-09-16T08:29:53.415Z",
+      "slug": "test",
+      "status": "draft",
+      "title": "Test"
     }
   ]
 }
