@@ -1,6 +1,6 @@
 {
-  "commit": "b1312b68641d673089c42e298b152cd0b50e2db5",
-  "generated": "2023-09-16T08:18:05.265Z",
+  "commit": "bf849ae4d6b509259ba1d22426e7d92c28ffa583",
+  "generated": "2023-09-18T09:44:27.167Z",
   "metadata": [
     {
       "__outstatic": {
@@ -91,26 +91,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e39f333183537a2d345d51a3edf944d8535a3bf2",
-        "hash": "2296238573",
-        "path": "outstatic/content/posts/nothing-wrong.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "/images/screenshot-from-2023-09-08-12-47-12-QxMD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/industrial-pattern.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "nothing-wrong",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Nothing is wrong. Everything is perfect"
-    },
-    {
-      "__outstatic": {
         "commit": "a4da4a860e6dee6a31bd1daf1fc294f508385711",
         "hash": "2944646024",
         "path": "outstatic/content/posts/how-to-create-an-outstatic-blog.md"
@@ -158,6 +138,26 @@
       "slug": "test",
       "status": "draft",
       "title": "Test"
+    },
+    {
+      "__outstatic": {
+        "commit": "bf849ae4d6b509259ba1d22426e7d92c28ffa583",
+        "hash": "1389131891",
+        "path": "outstatic/content/posts/nothing-wrong.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": "/images/screenshot-from-2023-09-08-12-47-12-QxMD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/industrial-pattern.png",
+      "description": "One more day, one more joy. I feel blessed.",
+      "publishedAt": "2022-09-14T17:55:40.452Z",
+      "slug": "nothing-wrong",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Everything is wrong. Everything is perfect"
     }
   ]
 }
