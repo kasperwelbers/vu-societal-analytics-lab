@@ -14,5 +14,5 @@ publishedAt: '2022-03-17T05:35:07.322Z'
 
 # Hi, and welcome to our lab!
 
-This is a very cool lab doing very cool lab things.
+This is a very cool lab doing very cool lab things. The boss is Wouter. He's a boss!
 
