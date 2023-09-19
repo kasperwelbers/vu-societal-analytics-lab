@@ -6,7 +6,7 @@ author:
   name: 'Andre Vitorio'
   picture: '/images/screenshot-from-2023-09-08-12-47-12-QxMD.png'
 status: 'published'
-title: 'Everything is wrong. Everything is perfect'
+title: 'Nothing is wrong. Everything is perfect'
 publishedAt: '2022-09-14T17:55:40.452Z'
 ---
 

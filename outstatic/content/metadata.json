@@ -1,6 +1,6 @@
 {
-  "commit": "bf849ae4d6b509259ba1d22426e7d92c28ffa583",
-  "generated": "2023-09-18T09:44:27.167Z",
+  "commit": "b4b18db01ee76ef4426e20ee474a3fbc41c3c0ce",
+  "generated": "2023-09-19T05:27:46.090Z",
   "metadata": [
     {
       "__outstatic": {
@@ -141,8 +141,8 @@
     },
     {
       "__outstatic": {
-        "commit": "bf849ae4d6b509259ba1d22426e7d92c28ffa583",
-        "hash": "1389131891",
+        "commit": "b4b18db01ee76ef4426e20ee474a3fbc41c3c0ce",
+        "hash": "2296238573",
         "path": "outstatic/content/posts/nothing-wrong.md"
       },
       "author": {
@@ -157,7 +157,7 @@
       "status": "published",
       "tags": [
       ],
-      "title": "Everything is wrong. Everything is perfect"
+      "title": "Nothing is wrong. Everything is perfect"
     }
   ]
 }
