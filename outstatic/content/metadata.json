@@ -1,6 +1,6 @@
 {
-  "commit": "c21b55b2dee7079a26b3dcac1c38191122a80a37",
-  "generated": "Thu, 21 Sep 2023 20:21:21 GMT",
+  "commit": "21a4853c16446e7482e7e346ddef99eef0e5113a",
+  "generated": "2023-09-25T15:12:45.201Z",
   "metadata": [
     {
       "__outstatic": {
@@ -40,24 +40,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d58ca416153b4e6dca915c2ceba6d3ae0ebf5a81",
-        "hash": "2304778665",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Nel Ruigrok",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Over LJS",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About"
-    },
-    {
-      "__outstatic": {
         "commit": "a6149d17f21f101e962a03b3dd5b189f1633c1ca",
         "hash": "1079839898",
         "path": "outstatic/content/projects/example.md"
@@ -90,6 +72,24 @@
       "slug": "projects",
       "status": "published",
       "title": "Projects"
+    },
+    {
+      "__outstatic": {
+        "commit": "21a4853c16446e7482e7e346ddef99eef0e5113a",
+        "hash": "3000624648",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "About the Societal Analytics Lab",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About"
     }
   ]
 }
