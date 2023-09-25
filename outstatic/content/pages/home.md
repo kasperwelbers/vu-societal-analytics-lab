@@ -2,17 +2,19 @@
 title: 'Home'
 status: 'published'
 author:
-  name: 'Andre Vitorio'
+  name: 'Nel Ruigrok'
   picture: ''
 slug: 'home'
 description: 'This is my blog.'
-coverImage: ''
-publishedAt: '2022-03-17T05:35:07.322Z'
+coverImage: '/images/hero-image.png'
+publishedAt: '2023-09-21T04:35:07.000Z'
 ---
 
-## VU Societal Analytics Lab
+## Welkom!
 
-# Hi, and welcome to our lab!
+# LJS Nieuwsmonitor
 
-This is a very cool lab doing very cool lab things. The boss is Wouter. He's a boss!
+Media-analyses op maat.
+
+(De website wordt nog gebouwd, vandaar slechts weinig informatie. Voor vragen kunt u altijd mailen naar: nelruigrok@nieuwsmonitor.org)
 
