@@ -1,25 +1,7 @@
 {
-  "commit": "21a4853c16446e7482e7e346ddef99eef0e5113a",
-  "generated": "2023-09-25T15:12:45.201Z",
+  "commit": "0fdb108a089f311a921fa71dfd4ae90fb29e316f",
+  "generated": "2023-09-25T15:14:41.139Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "819385fa7d790b8f9b9117649bdf6c1134c7c2ef",
-        "hash": "3316301127",
-        "path": "outstatic/content/pages/contact.md"
-      },
-      "author": {
-        "name": "Nel Ruigrok",
-        "picture": "/images/ruigrok-Y0Mj.jpg"
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo-M2MT.png",
-      "description": "Neem contact op",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "contact",
-      "status": "published",
-      "title": "Contact"
-    },
     {
       "__outstatic": {
         "commit": "89557e77f789294224d3cbb63889685206878182",
@@ -90,6 +72,24 @@
       "slug": "about",
       "status": "published",
       "title": "About"
+    },
+    {
+      "__outstatic": {
+        "commit": "0fdb108a089f311a921fa71dfd4ae90fb29e316f",
+        "hash": "589460856",
+        "path": "outstatic/content/pages/contact.md"
+      },
+      "author": {
+        "name": "Nel Ruigrok",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/logo.png",
+      "description": "Neem contact op",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "contact",
+      "status": "published",
+      "title": "Contact"
     }
   ]
 }
