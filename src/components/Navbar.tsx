@@ -6,17 +6,26 @@ import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname();
+
+  function setHeight() {
+    if (pathname === "/") return "grid-rows-[0px] ";
+    return "grid-rows-[80px] md:grid-rows-[112px]";
+  }
+
   return (
     <>
-      <div className="max-w-6xl mx-auto w-full h-20 md:h-28 backdrop-blur-sm bg-background-transparent sticky top-0 z-20 border-b-2 ">
-        <div className="container mx-auto px-4 h-full">
-          <div className="flex justify-between md:justify-start items-center h-full">
+      <div
+        className={`grid transition-all duration-500 w-full ${setHeight()} overflow-hidden backdrop-blur-sm bg-background-transparent sticky top-0 z-20 border-b-2`}
+      >
+        <div className="flex justify-between md:justify-start relative items-center h-full px-4">
+          <div className="">
             <Logo />
-            <ul className="hidden md:flex text-foreground text-xl">
-              <Links />
-            </ul>
-            <FoldedMenu />
           </div>
+          <ul className="w-full max-w-[calc(1200px+96px)] mx-auto  hidden md:flex text-foreground text-xl">
+            <Links />
+          </ul>
+          <FoldedMenu />
         </div>
       </div>
     </>
@@ -26,15 +35,11 @@ const Navbar = () => {
 const Links = () => {
   return (
     <>
-      <li>
-        <NavItem route="/about">About us</NavItem>
-      </li>
-      <li>
-        <NavItem route="/projects">Projects</NavItem>
-      </li>
-      <li>
-        <NavItem route="/contact">Contact</NavItem>
-      </li>
+      <NavItem route="/about">About us</NavItem>
+
+      <NavItem route="/projects">Projects</NavItem>
+
+      <NavItem route="/contact">Contact</NavItem>
     </>
   );
 };
@@ -46,7 +51,7 @@ const NavItem = (props: { children: React.ReactNode; route: string }) => {
   return (
     <Link href={props.route}>
       <button
-        className={`transition  p-4 pl-6    ${
+        className={`transition  p-4 md:px-8    ${
           isActive ? " text-primary" : " text-secondary"
         } hover:text-primary`}
       >
@@ -82,7 +87,7 @@ const FoldedMenu = () => {
   return (
     <div className="relative ">
       <Button
-        className={`bg-secondary p-1  ${show ? "" : "md:hidden"}`}
+        className={`bg-secondary p-1 mt-2 w-12 h-12 md:hidden rounded-full`}
         onClick={() => setShow(!show)}
       >
         <svg
@@ -97,7 +102,7 @@ const FoldedMenu = () => {
       <div
         ref={ref}
         onClick={() => setShow(false)}
-        className={`grid grid-rows-[0px] transition-all fixed right-4 bg-background overflow-hidden `}
+        className={`grid grid-rows-[0px] transition-all fixed top-20 right-4 bg-background overflow-hidden `}
       >
         <div className="rounded w-full h-full border-4 border-secondary py-2">
           <ul className="flex flex-col">
@@ -111,8 +116,6 @@ const FoldedMenu = () => {
 };
 
 const Logo = () => {
-  const pathname = usePathname();
-
   return (
     <div className="flex items-center gap-x-3 h-16 md:h-20 w-16 md:w-20 mr-4">
       <Link href="/">
@@ -123,3 +126,4 @@ const Logo = () => {
 };
 
 export default Navbar;
+export { Links };

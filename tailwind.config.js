@@ -11,6 +11,13 @@ module.exports = {
       },
     },
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            hyphens: "auto",
+          },
+        },
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

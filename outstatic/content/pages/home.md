@@ -1,20 +1,42 @@
 ---
-title: 'Home'
-status: 'published'
+title: "Home"
+status: "published"
 author:
-  name: 'Nel Ruigrok'
-  picture: ''
-slug: 'home'
-description: 'This is my blog.'
-coverImage: '/images/hero-image.png'
-publishedAt: '2023-09-21T04:35:07.000Z'
+  name: "Kasper Welbers"
+  picture: ""
+slug: "home"
+description: "The VU FSW Societal Analytics Lab"
+coverImage: "/images/logo.png"
+publishedAt: "2023-09-21T04:35:07.000Z"
 ---
 
-## Welkom!
+## Introducing the VU FSW...
 
-# LJS Nieuwsmonitor
+# Societal Analytics Lab
 
-Media-analyses op maat.
+Hey there! Welcome aboard the Societal Analytics Lab - where the world of social behavior meets computational techniques. As we find ourselves in an increasingly digital society, the way we study social dynamics is shifting. No longer are we solely reliant on traditional methods; instead, we dive into the intriguing digital imprints left by everyday activities - from the casual tweet to the tracking of health and commercial behaviors.
 
-(De website wordt nog gebouwd, vandaar slechts weinig informatie. Voor vragen kunt u altijd mailen naar: nelruigrok@nieuwsmonitor.org)
+Think of it this way: the Societal Analytics Lab is like your friendly neighborhood guide into the vast realm of digital social dynamics. Whether you're a computational social scientist or just beginning your journey, we're here to support and equip you with the right tools, data, and skills.
 
+## Why we're here:
+
+- Boosting research funding: By supporting the use of innovative methodologies and ensuring they're grounded in a solid institutional setting.
+- Enhancing computational research: Offering essential resources to bolster research and teaching productivity.
+- Spreading knowledge: Encouraging the valid and informed use of computational techniques.
+- Visibility and impact: Making FSW research pop with innovative data visualizations for the world to see. Plus, influencing societal discussions through our robust research outreach.
+
+## What we do:
+
+- Data Collection: From social media footprints to other digital traces, we collect and archive them for easy access.
+- Tools & Resources: Whether it's software for manual annotation or GPU-driven computing for automatic text/image processing, we've got you covered.
+- Learning & Collaboration: From training sessions to hackathons, we promote knowledge exchange and foster global connections.
+- Grants & Rewards: We recognize and incentivize computational research efforts among our members.
+
+## Join our Community:
+
+Our leadership consists of dynamic co-directors, a lab manager for technical infra, and a coordinator for all our fun events. If you're keen to dive deeper, you can become a core member or even an affiliate member. Especially if you're an FSW researcher, there's always room for you!
+
+So, whether you're here to experiment, learn, collaborate, or simply explore, we're thrilled to have you. Dive in, and let's decode society together!
+
+Cheers,
+The Societal Analytics Lab Team

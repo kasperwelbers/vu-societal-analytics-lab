@@ -1,32 +1,26 @@
 import { load } from "outstatic/server";
-import ContentGrid from "../components/ContentGrid";
 import markdownToHtml from "../lib/markdownToHtml";
+import { Links } from "@/components/Navbar";
 
 export default async function Index() {
-  const { content, allProjects } = await getData();
+  const { content, coverImage } = await getData();
+
   return (
-    <div className="max-w-6xl mx-auto p-0 md:pt-16 md:pb-16 px-2 md:px-4">
-      <div className="flex flex-col-reverse items-center md:flex-row">
-        <div>
-          <div
-            className="relative w-full prose max-w-2xl lg:prose-xl font-semibold leading-9 z-10 p-4 rounded bg-background-transparent backdrop-blur-md text-black"
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
-        </div>
-        <img
-          alt={"Logo"}
-          src={"images/logo.png"}
-          className="p-4 py-8 w-1/3 h-1/3"
+    <div className="">
+      <div className="flex flex-col-reverse lg:flex-row">
+        <div
+          className="flex-auto relative w-full max-w-2xl mx-auto lg:mx-0 prose md:prose-xl mt-8 lg:mt-24"
+          dangerouslySetInnerHTML={{ __html: content }}
         />
-      </div>
-      <div className="max-w-6xl mx-auto px-5 pt-10">
-        {allProjects.length > 0 && (
-          <ContentGrid
-            title="Projects"
-            items={allProjects}
-            collection="projects"
-          />
-        )}
+
+        <div className="flex ml-auto w-full lg:w-1/3">
+          <div className="flex lg:flex-col mx-auto">
+            <img alt={"Logo"} src={coverImage} className="p-4 py-8" />
+            <ul className="flex flex-col mx-auto justify-center prose md:prose-xl lg:prose-2xl">
+              <Links />
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -36,18 +30,17 @@ async function getData() {
   const db = await load();
 
   const page = await db
-    .find({ collection: "pages", slug: "home" }, ["content", "title"])
+    .find({ collection: "pages", slug: "home" }, [
+      "content",
+      "title",
+      "coverImage",
+    ])
     .first();
 
   const content = await markdownToHtml(page.content);
 
-  const allProjects = await db
-    .find({ collection: "projects" }, ["title", "slug", "coverImage"])
-    .sort({ publishedAt: -1 })
-    .toArray();
-
   return {
     content,
-    allProjects,
+    coverImage: page.coverImage,
   };
 }

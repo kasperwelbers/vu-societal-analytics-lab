@@ -5,16 +5,17 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: {
-    default: "LJS Nieuwsmonitor",
-    template: "%s | LJS",
+    default: "Societal Analytics Lab",
+    template: "%s | Societal Analytics Lab",
   },
   description:
-    "LJS Nieuwsmonitor - Onderzoeksbureau van Nel Ruigrok en Wouter van Atteveldt",
+    "We are the Societal Analytics Lab of the Faculty of Social Science at the Vrije Universiteit Amsterdam",
   openGraph: {
-    title: "LJS Nieuwsmonitor",
-    description: "Onderzoeksbureau van Nel Ruigrok en Wouter van Atteveldt.",
+    title: "Societal Analytics Lab",
+    description:
+      "We are the Societal Analytics Lab of the Faculty of Social Science at the Vrije Universiteit Amsterdam",
     url: absoluteUrl("/"),
-    locale: "nl_NL",
+    locale: "en_US",
     type: "website",
   },
   icons: {
@@ -30,9 +31,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relative min-h-screen">
+      <body className="relative flex flex-col min-h-screen">
         <Navbar />
-        {children}
+        <div className="w-full max-w-[1200px] mx-auto px-4 md:px-8 py-6 md:py-12">
+          {children}
+        </div>
       </body>
     </html>
   );

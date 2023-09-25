@@ -6,20 +6,16 @@ export default async function Index() {
   const { content, allPosts, allProjects } = await getData();
 
   return (
-    <div className="max-w-6xl mx-auto px-5">
-      <section className="mt-16 mb-16 md:mb-12">
+    <div className="">
+      <section className="mt-8 mb-16 md:mb-12">
         <div
-          className="prose lg:prose-2xl text-2xl font-semibold leading-9"
+          className="prose md:prose-xl"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </section>
 
       {allProjects.length > 0 && (
-        <ContentGrid
-          title="Projects"
-          items={allProjects}
-          collection="projects"
-        />
+        <ContentGrid items={allProjects} collection="projects" />
       )}
     </div>
   );

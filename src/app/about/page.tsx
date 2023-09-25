@@ -5,10 +5,10 @@ export default async function Index() {
   const { content } = await getData();
   return (
     <>
-      <div className="max-w-6xl mx-auto px-5">
-        <section className="relative mt-16 mb-16 md:mb-12">
+      <div className="">
+        <section className="relative mt-8 mb-16 md:mb-12">
           <div
-            className="relative prose lg:prose-2xl text-2xl font-semibold leading-9"
+            className="relative prose md:prose-xl "
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </section>
