@@ -1,6 +1,6 @@
 {
-  "commit": "0fdb108a089f311a921fa71dfd4ae90fb29e316f",
-  "generated": "2023-09-25T15:14:41.139Z",
+  "commit": "b6e4004577d0a05d8334d6969ac49e4e08f55888",
+  "generated": "2023-09-25T15:17:12.412Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,23 +19,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "a6149d17f21f101e962a03b3dd5b189f1633c1ca",
-        "hash": "1079839898",
-        "path": "outstatic/content/projects/example.md"
-      },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "projects",
-      "coverImage": "/images/logo.png",
-      "description": "Example project",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "Example"
     },
     {
       "__outstatic": {
@@ -90,6 +73,23 @@
       "slug": "contact",
       "status": "published",
       "title": "Contact"
+    },
+    {
+      "__outstatic": {
+        "commit": "b6e4004577d0a05d8334d6969ac49e4e08f55888",
+        "hash": "1798563272",
+        "path": "outstatic/content/projects/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "projects",
+      "coverImage": "/images/logo.png",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "Project title goes here"
     }
   ]
 }
