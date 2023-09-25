@@ -27,13 +27,13 @@ const Links = () => {
   return (
     <>
       <li>
-        <NavItem route="/about">Over LJS</NavItem>
+        <NavItem route="/about">About us</NavItem>
       </li>
       <li>
         <NavItem route="/projects">Projects</NavItem>
       </li>
       <li>
-        <NavItem route="/contact">Neem contact op</NavItem>
+        <NavItem route="/contact">Contact</NavItem>
       </li>
     </>
   );
