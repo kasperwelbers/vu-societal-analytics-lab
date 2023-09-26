@@ -88,7 +88,7 @@ const FoldedMenu = () => {
     <div className="relative ">
       <Button
         className={`bg-secondary p-1 mt-2 w-12 h-12 md:hidden rounded-full`}
-        onClick={(e: MouseEvent) => {
+        onClick={() => {
           setShow(!show);
         }}
       >
