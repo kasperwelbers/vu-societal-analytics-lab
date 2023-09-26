@@ -9,14 +9,14 @@ const Navbar = () => {
   const pathname = usePathname();
 
   function setHeight() {
-    if (pathname === "/") return "grid-rows-[0px] ";
-    return "grid-rows-[80px] md:grid-rows-[112px]";
+    if (pathname === "/") return "grid-rows-[0px] overflow-hidden";
+    return "grid-rows-[80px] md:grid-rows-[112px] overflow-visible";
   }
 
   return (
     <>
       <div
-        className={`grid transition-all duration-500 w-full ${setHeight()} overflow-hidden backdrop-blur-sm bg-background-transparent sticky top-0 z-20 border-b-2`}
+        className={`grid transition-all duration-500 w-full ${setHeight()}  backdrop-blur-sm bg-background-transparent sticky top-0 z-20 border-b-2`}
       >
         <div className="flex justify-between md:justify-start relative items-center h-full px-4">
           <div className="">
@@ -88,7 +88,9 @@ const FoldedMenu = () => {
     <div className="relative ">
       <Button
         className={`bg-secondary p-1 mt-2 w-12 h-12 md:hidden rounded-full`}
-        onClick={() => setShow(!show)}
+        onClick={(e: MouseEvent) => {
+          setShow(!show);
+        }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +104,7 @@ const FoldedMenu = () => {
       <div
         ref={ref}
         onClick={() => setShow(false)}
-        className={`grid grid-rows-[0px] transition-all fixed top-20 right-4 bg-background overflow-hidden `}
+        className={`grid grid-rows-[0px] transition-all fixed top-20 right-4 bg-background overflow-hidden`}
       >
         <div className="rounded w-full h-full border-4 border-secondary py-2">
           <ul className="flex flex-col">
