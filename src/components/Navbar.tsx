@@ -10,7 +10,7 @@ const Navbar = () => {
 
   function setHeight() {
     if (pathname === "/") return "grid-rows-[0px] overflow-hidden";
-    return "grid-rows-[80px] md:grid-rows-[112px] overflow-visible";
+    return "grid-rows-[var(--navbar-height)] md:grid-rows-[var(--navbar-height-md)] overflow-visible";
   }
 
   return (

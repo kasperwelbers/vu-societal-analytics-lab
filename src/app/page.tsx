@@ -6,17 +6,21 @@ export default async function Index() {
   const { content, coverImage } = await getData();
 
   return (
-    <div className="">
+    <div className="animate-fade-in">
       <div className="flex flex-col-reverse lg:flex-row">
         <div
-          className="flex-auto relative w-full max-w-2xl mx-auto lg:mx-0 prose md:prose-xl mt-8 lg:mt-24"
+          className="flex-auto relative w-full max-w-2xl mx-auto lg:mx-0 prose lg:prose-xl mt-8 lg:mt-24"
           dangerouslySetInnerHTML={{ __html: content }}
         />
 
-        <div className="flex ml-auto w-full lg:w-1/3">
+        <div className="flex mx-auto lg:w-1/3 lg:ml-auto">
           <div className="flex lg:flex-col mx-auto">
-            <img alt={"Logo"} src={coverImage} className="p-4 py-8" />
-            <ul className="flex flex-col mx-auto justify-center prose md:prose-xl lg:prose-2xl">
+            <img
+              alt={"Logo"}
+              src={coverImage}
+              className="p-4 py-8 w-[70%] lg:w-full"
+            />
+            <ul className="flex flex-col lg:mx-auto justify-center prose md:prose-xl lg:prose-2xl">
               <Links />
             </ul>
           </div>
