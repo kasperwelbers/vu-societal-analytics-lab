@@ -13,8 +13,8 @@ export default async function Index() {
           dangerouslySetInnerHTML={{ __html: content }}
         />
 
-        <div className="flex mx-auto lg:w-1/3 lg:ml-auto">
-          <div className="flex lg:flex-col mx-auto">
+        <div className="flex mx-auto lg:w-1/3 lg:mr-0">
+          <div className="lg:fixed flex lg:flex-col ml-auto">
             <img
               alt={"Logo"}
               src={coverImage}
