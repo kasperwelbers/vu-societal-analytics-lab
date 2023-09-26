@@ -34,22 +34,18 @@ async function getData() {
 
   const content = await markdownToHtml(page.content);
 
-  const people = [
-    {
-      name: "Wouter van Atteveldt",
-      avatar:
-        "https://research.vu.nl/files-asset/22705903/Dr._Wouter_van_Atteveldt_tcm250_36346.jpg?w=160&f=webp",
-      title: "Professor",
-      function: "Lab director",
-    },
-    {
-      name: "Kasper Welbers",
-      avatar:
-        "https://avatars.githubusercontent.com/u/6179240?s=400&u=bc62bb664986df4c700fdc68fc3539ca0893a0f8&v=4",
-      title: "Assistant Professor",
-      function: "Lab co-director",
-    },
-  ];
+  const allPeople = await db
+    .find({ collection: "people" }, ["title", "content", "coverImage"])
+    .sort({ publishedAt: 1 })
+    .toArray();
+
+  const people = allPeople.map((person) => {
+    return {
+      name: person.title,
+      avatar: person.coverImage || "",
+      function: person.content,
+    };
+  });
 
   return { content, people };
 }

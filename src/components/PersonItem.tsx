@@ -13,7 +13,6 @@ export default function PersonItem({ person }: Props) {
         className="rounded-full h-36 object-cover aspect-square border-4 border-secondary my-1"
       />
       <h4 className="my-1 font-semibold">{person.name}</h4>
-      <p className="text-center my-0">{person.title}</p>
       <p className="text-center my-0 text-secondary">{person.function}</p>
     </div>
   );
