@@ -11,7 +11,7 @@ export default async function Index() {
         dangerouslySetInnerHTML={{ __html: content }}
       />
       <div className="relative flex px-4 ml-auto w-full lg:w-1/3 mt-12 lg:mt-8">
-        <div className="lg:fixed flex flex-col mx-auto items-center gap-8 flex-auto">
+        <div className="flex flex-col mx-auto items-center gap-8 flex-auto">
           <h2 className="text-center text-2xl font-bold">
             The Societal Analytics Lab Team
           </h2>
