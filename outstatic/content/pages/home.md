@@ -6,7 +6,7 @@ author:
   picture: ""
 slug: "home"
 description: "The VU FSW Societal Analytics Lab"
-coverImage: "/images/logo.png"
+coverImage: "/images/logo.svg"
 publishedAt: "2023-09-21T04:35:07.000Z"
 ---
 

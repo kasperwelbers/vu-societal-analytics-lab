@@ -121,7 +121,11 @@ const Logo = () => {
   return (
     <div className="flex items-center gap-x-3 h-16 md:h-20 w-16 md:w-20 mr-4">
       <Link href="/">
-        <img src="/images/logo_small.png" alt="logo" className="p-2" />
+        <img
+          src="/images/logo_small.svg"
+          alt="logo"
+          className="p-2 h-24 w-24"
+        />
       </Link>
     </div>
   );

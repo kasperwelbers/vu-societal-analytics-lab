@@ -6,7 +6,7 @@ author:
   picture: ""
 slug: "contact"
 description: "Neem contact op"
-coverImage: "/images/logo.png"
+coverImage: "/images/logo.svg"
 publishedAt: "2023-09-21T04:35:07.000Z"
 ---
 
