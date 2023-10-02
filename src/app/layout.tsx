@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relative flex flex-col min-h-screen ">
+      <body className="relative flex flex-col min-h-screen overflow-y-scroll">
         <Navbar />
         <div className="w-full max-w-[1200px] mx-auto px-4 md:px-8 py-6 md:py-12">
           {children}
