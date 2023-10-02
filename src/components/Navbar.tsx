@@ -15,8 +15,11 @@ const Navbar = () => {
 
   return (
     <>
+      {pathname !== "/" && (
+        <div className="h-[var(--navbar-height)] md:h-[var(--navbar-height-md)]" />
+      )}
       <div
-        className={`grid transition-all duration-500 w-full ${setHeight()}  backdrop-blur-sm bg-background-transparent sticky top-0 z-20 border-b-2`}
+        className={`grid transition-all duration-500 w-full ${setHeight()}  backdrop-blur-sm bg-background-transparent absolute top-0 z-20 border-b-2`}
       >
         <div className="flex justify-between md:justify-start relative items-center h-full px-4">
           <div className="">
