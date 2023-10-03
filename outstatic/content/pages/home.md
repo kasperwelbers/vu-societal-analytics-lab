@@ -10,33 +10,33 @@ coverImage: "/images/logo.svg"
 publishedAt: "2023-09-21T04:35:07.000Z"
 ---
 
-## Introducing the VU FSW...
+## Introducing the VU Faculty of Social Sciences'...
 
-# Societal Analytics Lab
+# Societal Analytics Research & Innovation Lab
 
-Hey there! Welcome aboard the Societal Analytics Lab - where the world of social behavior meets computational techniques. As we find ourselves in an increasingly digital society, the way we study social dynamics is shifting. No longer are we solely reliant on traditional methods; instead, we dive into the intriguing digital imprints left by everyday activities - from the casual tweet to the tracking of health and commercial behaviors.
+Hey there! Welcome aboard the Societal Analytics Research & Innovation Lab at the Faculty of Social Sciences of Vrije Universiteit Amsterdam. Here the world of social behaviour meets computational techniques. As we find ourselves in an increasingly digital society, the way we study social dynamics is shifting. No longer are we solely reliant on traditional methods; instead, we dive into the intriguing digital imprints left by everyday activities - from the casual tweet to the tracking of health and commercial behaviors.
 
 Think of it this way: the Societal Analytics Lab is like your friendly neighborhood guide into the vast realm of digital social dynamics. Whether you're a computational social scientist or just beginning your journey, we're here to support and equip you with the right tools, data, and skills.
 
-## Why we're here:
+## We're here for you to:
 
-- Boosting research funding: By supporting the use of innovative methodologies and ensuring they're grounded in a solid institutional setting.
-- Enhancing computational research: Offering essential resources to bolster research and teaching productivity.
-- Spreading knowledge: Encouraging the valid and informed use of computational techniques.
-- Visibility and impact: Making FSW research pop with innovative data visualizations for the world to see. Plus, influencing societal discussions through our robust research outreach.
+- Boost research funding: let us support you in the use of innovative methodologies grounded in a solid institutional setting, for winning research proposals.
+- Enhance computational research: benefit from essential resources to bolster research and teaching productivity.
+- Spread knowledge: make valid and informed use of computational techniques.
+- Increase visibility and impact: make FSS research pop with innovative data visualizations for the world to see. Plus, let's influence societal discussions through our robust research outreach.
 
 ## What we do:
 
-- Data Collection: From social media footprints to other digital traces, we collect and archive them for easy access.
-- Tools & Resources: Whether it's software for manual annotation or GPU-driven computing for automatic text/image processing, we've got you covered.
-- Learning & Collaboration: From training sessions to hackathons, we promote knowledge exchange and foster global connections.
-- Grants & Rewards: We recognize and incentivize computational research efforts among our members.
+- Data Collection: from social media footprints to other digital traces, we collect and archive them for easy access.
+- Tools & Resources: whether it's software for manual annotation or GPU-driven computing for automatic text/image processing, we've got you covered.
+- Learning & Collaboration: from training sessions to hackathons, we promote knowledge exchange and foster global connections.
+- Grants & Rewards: we recognize and incentivize computational research efforts among our members, to increase the number of grants and rewards awarded to our faculty's cutting-edge research.
 
 ## Join our Community:
 
-Our leadership consists of dynamic co-directors, a lab manager for technical infra, and a coordinator for all our fun events. If you're keen to dive deeper, you can become a core member or even an affiliate member. Especially if you're an FSW researcher, there's always room for you!
+Our leadership consists of dynamic co-directors, a lab manager for technical infra, and a coordinator for all our fun events. If you're keen to dive in deeper, you can become a core member or even an affiliate member. Especially if you're a researcher at the Faculty of Social Sciences of Vrije Universiteit Amsterdam, there's always room for you!
 
 So, whether you're here to experiment, learn, collaborate, or simply explore, we're thrilled to have you. Dive in, and let's decode society together!
 
 Cheers,
-The Societal Analytics Lab Team
+The Societal Analytics Research & Innovation Lab Team
