@@ -12,4 +12,8 @@ publishedAt: "2022-03-17T05:35:07.322Z"
 
 ## Projects
 
-Here we should put an overview of our projects.
+At the Societal Analytics Research & Innovation Lab we support a variety of research projects with computational techniques and expertise to analyze existing digital traces to:
+- answer societal questions,
+- analyze (sentiments in) texts, videos, audio,
+- analyze (sentiments in) social networks,
+- analyze (dynamics and changes in) time series.
