@@ -3,6 +3,13 @@ import "./globals.css";
 import { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -31,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={roboto.className}>
       <body className="relative flex flex-col min-h-screen overflow-y-scroll">
         <Navbar />
         <div className="flex justify-between md:justify-start relative items-center h-full px-4">
@@ -54,8 +61,10 @@ const VuLogo = () => {
         <img src="/images/logo_vu.svg" alt="logo" className=" w-56" />
       </Link>
       <div className="font-bold text-secondary">
-        <h3>Faculty of Social Sciences</h3>
-        <h3>Societal Analytics Lab</h3>
+        <h3 className="tracking-wide">Faculty of Social Sciences</h3>
+        <h3 className="tracking-[0.115rem] text-primary">
+          Societal Analytics Lab
+        </h3>
       </div>
     </div>
   );
