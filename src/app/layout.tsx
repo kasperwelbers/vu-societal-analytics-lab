@@ -2,6 +2,7 @@ import { absoluteUrl } from "@/lib/utils";
 import "./globals.css";
 import { Metadata } from "next";
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: {
@@ -33,6 +34,11 @@ export default function RootLayout({
     <html lang="en">
       <body className="relative flex flex-col min-h-screen overflow-y-scroll">
         <Navbar />
+        <div className="flex justify-between md:justify-start relative items-center h-full px-4">
+          <div className="">
+            <VuLogo />
+          </div>
+        </div>
         <div className="w-full max-w-[1200px] mx-auto px-4 md:px-8 py-6 md:py-12">
           {children}
         </div>
@@ -40,3 +46,17 @@ export default function RootLayout({
     </html>
   );
 }
+
+const VuLogo = () => {
+  return (
+    <div className="flex items-center gap-x-3 py-5 mr-4">
+      <Link href="https://vu.nl/nl">
+        <img src="/images/logo_vu.svg" alt="logo" className=" w-56" />
+      </Link>
+      <div className="font-bold text-secondary">
+        <h3>Faculty of Social Sciences</h3>
+        <h3>Societal Analytics Lab</h3>
+      </div>
+    </div>
+  );
+};
