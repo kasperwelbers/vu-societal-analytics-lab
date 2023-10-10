@@ -14,9 +14,10 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            hyphens: "auto",
+            p: { hyphens: "auto" },
           },
         },
+        invert: {},
       },
       colors: {
         border: "hsl(var(--border))",

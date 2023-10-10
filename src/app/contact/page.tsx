@@ -5,7 +5,7 @@ export default async function Index() {
   const { content } = await getData();
   return (
     <>
-      <div className="animate-fade-in">
+      <div className="animate-fade-in max-w-[1200px] mx-auto px-4 md:px-8">
         <section className="relative mt-8 mb-16 md:mb-12">
           <div
             className="relative prose md:prose-xl"

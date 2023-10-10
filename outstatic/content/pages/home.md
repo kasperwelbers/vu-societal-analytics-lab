@@ -6,13 +6,11 @@ author:
   picture: ""
 slug: "home"
 description: "The VU FSW Societal Analytics Lab"
-coverImage: "/images/logo.svg"
+coverImage: "/images/logo_small.svg"
 publishedAt: "2023-09-21T04:35:07.000Z"
 ---
 
-## Introducing the VU Faculty of Social Sciences'...
-
-# Societal Analytics Research & Innovation Lab
+# The Societal Analytics Research & Innovation Lab
 
 Hey there! Welcome aboard the Societal Analytics Research & Innovation Lab at the Faculty of Social Sciences of Vrije Universiteit Amsterdam. Here the world of social behaviour meets computational techniques. As we find ourselves in an increasingly digital society, the way we study social dynamics is shifting. No longer are we solely reliant on traditional methods; instead, we dive into the intriguing digital imprints left by everyday activities - from the casual tweet to the tracking of health and commercial behaviours.
 

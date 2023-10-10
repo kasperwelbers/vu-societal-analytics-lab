@@ -1,31 +1,24 @@
 import { load } from "outstatic/server";
 import markdownToHtml from "../lib/markdownToHtml";
 import { Links } from "@/components/Navbar";
+import { useRef } from "react";
+import Background from "./background";
 
 export default async function Index() {
   const { content, coverImage } = await getData();
 
   return (
-    <div className="animate-fade-in">
-      <div className="flex flex-col-reverse lg:flex-row">
-        <div
-          className="flex-auto relative w-full max-w-2xl mx-auto lg:mx-0 prose lg:prose-xl mt-8 lg:mt-24"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-
-        <div className="flex mx-auto lg:w-1/3 lg:mr-0">
-          <div className="lg:fixed flex lg:flex-col ml-auto">
-            <img
-              alt={"Logo"}
-              src={coverImage}
-              className="p-4 py-8 w-[70%] lg:w-full"
+    <div className="relative animate-fade-in">
+      <Background>
+        <div className="relative flex z-20 y mt-[clamp(9rem,27vw,30rem)]">
+          <div className="flex max-w-[1200px] mx-auto px-4 md:px-8 ">
+            <div
+              className="flex-auto relative w-full max-w-2xl mx-auto lg:mx-0 prose lg:prose-xl mt-8 p-8 rounded prose-invert bg-[hsl(var(--secondary)/0.93)]"
+              dangerouslySetInnerHTML={{ __html: content }}
             />
-            <ul className="flex flex-col lg:mx-auto justify-center prose md:prose-xl lg:prose-2xl">
-              <Links />
-            </ul>
           </div>
         </div>
-      </div>
+      </Background>
     </div>
   );
 }

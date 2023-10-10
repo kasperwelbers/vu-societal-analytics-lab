@@ -6,20 +6,11 @@ import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const pathname = usePathname();
-
-  function setHeight() {
-    if (pathname === "/") return "grid-rows-[0px] overflow-hidden";
-    return "grid-rows-[var(--navbar-height)] md:grid-rows-[var(--navbar-height-md)] overflow-visible";
-  }
-
   return (
     <>
-      {pathname !== "/" && (
-        <div className="h-[var(--navbar-height)] md:h-[var(--navbar-height-md)]" />
-      )}
+      <div className="h-[var(--navbar-height)] md:h-[var(--navbar-height-md)]" />
       <div
-        className={`grid transition-all duration-500 w-full ${setHeight()}  backdrop-blur-sm bg-background-transparent fixed top-0 z-20 border-b-2`}
+        className={`grid transition-all duration-500 w-full grid-rows-[var(--navbar-height)] md:grid-rows-[var(--navbar-height-md)] overflow-visible  backdrop-blur-sm bg-background-transparent fixed top-0 z-20 border-b-2`}
       >
         <div className="flex justify-between md:justify-start relative items-center h-full px-4">
           <div className="">
@@ -127,7 +118,7 @@ const Logo = () => {
         <img
           src="/images/logo_small.svg"
           alt="logo"
-          className="p-2 h-24 w-24"
+          className="p-2 h-24 w-24 [&>path]:bg-gray-300"
         />
       </Link>
     </div>

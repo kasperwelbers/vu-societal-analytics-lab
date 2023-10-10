@@ -81,6 +81,7 @@
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
+  background: hsl(var(--primary));
 }
 
 /* Track */
@@ -96,5 +97,5 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--primary));
+  background: hsl(var(--secondary));
 }

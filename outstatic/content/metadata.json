@@ -13,7 +13,7 @@
         "picture": ""
       },
       "collection": "pages",
-      "coverImage": "/images/logo.svg",
+      "coverImage": "/images/logo_small.svg",
       "description": "This is my blog.",
       "publishedAt": "2023-09-21T04:35:07.000Z",
       "slug": "home",
@@ -67,7 +67,7 @@
         "picture": ""
       },
       "collection": "pages",
-      "coverImage": "/images/logo.svg",
+      "coverImage": "/images/logo_small.svg",
       "description": "Neem contact op",
       "publishedAt": "2023-09-21T04:35:07.000Z",
       "slug": "contact",
@@ -84,7 +84,7 @@
         "name": "Kasper Welbers"
       },
       "collection": "projects",
-      "coverImage": "/images/logo.svg",
+      "coverImage": "/images/logo_small.svg",
       "description": "Here we put a short description of the project.",
       "publishedAt": "2023-09-21T04:35:07.000Z",
       "slug": "example",

@@ -39,16 +39,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={roboto.className}>
-      <body className="relative flex flex-col min-h-screen overflow-y-scroll">
+      <body className="relative flex flex-col min-h-screen">
         <Navbar />
-        <div className="flex justify-between md:justify-start relative items-center h-full px-4">
+        <div className="flex justify-between md:justify-start relative items-center h-full px-4 z-10">
           <div className="">
             <VuLogo />
           </div>
         </div>
-        <div className="w-full max-w-[1200px] mx-auto px-4 md:px-8 py-6 md:py-12">
-          {children}
-        </div>
+        <div className="w-full py-6 md:py-12">{children}</div>
       </body>
     </html>
   );
@@ -58,13 +56,11 @@ const VuLogo = () => {
   return (
     <div className="flex items-center gap-x-3 py-5 mr-4">
       <Link href="https://vu.nl/nl">
-        <img src="/images/logo_vu.svg" alt="logo" className=" w-56" />
+        <img src="/images/logo_vu.svg" alt="logo" className=" w-36 md:w-56" />
       </Link>
-      <div className="font-bold text-secondary">
-        <h3 className="tracking-wide">Faculty of Social Sciences</h3>
-        <h3 className="tracking-[0.115rem] text-primary">
-          Societal Analytics Lab
-        </h3>
+      <div className=" font-bold text-secondary text-[clamp(11px,2vw,16px)]">
+        <h3 className="">Faculty of Social Sciences</h3>
+        <h3 className="text-primary">Societal Analytics Lab</h3>
       </div>
     </div>
   );

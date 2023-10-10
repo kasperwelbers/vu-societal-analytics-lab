@@ -53,7 +53,7 @@ export default async function Project(params: Params) {
   const { project, moreProjects, content } = await getData(params);
 
   return (
-    <div className="animate-fade-in">
+    <div className="animate-fade-in max-w-[1200px] mx-auto px-4 md:px-8">
       <article className="mb-8 mt-18">
         <div className="grid md:grid-cols-[30%,1fr] gap-8">
           <div className="relative flex justify-center mb-2 md:mb-4 sm:mx-0 ">
