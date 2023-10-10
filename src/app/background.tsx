@@ -32,7 +32,7 @@ export default function Background({ children }: Props) {
       tracesRef.current.style.transform = `translateY(-${
         Math.max(0, pctScroll - 0.8) * 50
       }%) translateX(${Math.max(0, pctScroll - 0.8) * 10}%)`;
-      tracesRef.current.style.opacity = String(Math.max(0, pctScroll * 2 - 1));
+      tracesRef.current.style.opacity = String(Math.max(0, pctScroll * 4 - 3));
       backgroundRef.current.style.background = `linear-gradient(to bottom, hsl(0, 
         0%, ${100 - Math.max(0, darken * 3 - 200)}%), hsl(0, 10%, ${
         100 - Math.max(0, darken * 2 - 100)
@@ -51,7 +51,7 @@ export default function Background({ children }: Props) {
       <div className="fixed left-0 right-0 flex flex-col overflow-visible z-50">
         <div
           ref={skylineRef}
-          className="relative flex w-[120%] flex-col bg-gradient-to-t from-slate-400 to-transparent"
+          className="relative flex w-[100%] flex-col bg-gradient-to-t from-slate-400 to-transparent"
         >
           <div className="relative w-full max-w-[800px] ml-auto ">
             <Logo className="relative fill-secondary w-full translate-y-[20px] z-40" />
@@ -60,7 +60,7 @@ export default function Background({ children }: Props) {
               className="absolute w-full top-0 left-0 -z-10 opacity-0"
             >
               <Logo className="w-full h-full fill-primary translate-y-[2] " />
-              <div className="relative h-40 z-0 bg-primary" />
+              <div className="relative h-10 z-0 bg-primary" />
             </div>
           </div>
           <div className="bg-secondary h-[2000px]" />
@@ -68,7 +68,7 @@ export default function Background({ children }: Props) {
       </div>
       <div className="relative pt-[0vh]">
         <div className="relative z-50">{children} </div>
-        <div className="relative z-10 pb-[60vh] lg:pb-[50vh] pt-[40vh] text-white p-5 text-center font-bold text-3xl lg:text-4xl text-balance ">
+        <div className="relative z-10 pb-[60vh] lg:pb-[55vh] pt-[40vh] text-white  p-8 text-right font-bold text-3xl lg:text-5xl text-balance ">
           <h2>Uncover the digital traces of society</h2>
         </div>
       </div>
