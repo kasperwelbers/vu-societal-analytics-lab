@@ -36,6 +36,9 @@
 
     --navbar-height: 80px;
     --navbar-height-md: 112px;
+
+    /* Dynamic (set via side effects) */
+    --scrollPct: 0%;
   }
 
   .dark {

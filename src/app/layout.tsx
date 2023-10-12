@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import { Roboto } from "next/font/google";
+import CssWindowVariables from "@/components/CssWindowVariables";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -40,9 +41,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.className}>
       <body className="relative flex flex-col min-h-screen">
+        <CssWindowVariables />
         <Navbar />
-        <div className="flex justify-between md:justify-start relative items-center h-full px-4 z-10">
-          <div className="">
+        <div className="flex relative items-center h-full px-4 z-10">
+          <div className="w-full max-w-[calc(1200px+412px)] mx-auto">
             <VuLogo />
           </div>
         </div>

@@ -6,16 +6,25 @@ import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathName = usePathname();
+  const home = pathName === "/";
+
   return (
     <>
-      <div className="h-[var(--navbar-height)] md:h-[var(--navbar-height-md)]" />
+      {!home && (
+        <div className="h-[var(--navbar-height)] md:h-[var(--navbar-height-md)]" />
+      )}
       <div
-        className={`grid transition-all duration-500 w-full grid-rows-[var(--navbar-height)] md:grid-rows-[var(--navbar-height-md)] overflow-visible  backdrop-blur-sm bg-background-transparent fixed top-0 z-20 border-b-2`}
+        className={`${
+          home ? "" : "fixed"
+        } grid transition-all duration-500 w-full grid-rows-[var(--navbar-height)]  md:grid-rows-[var(--navbar-height-md)]
+        overflow-visible  backdrop-blur-sm bg-background-transparent d top-0 z-20 border-b-2`}
       >
         <div className="flex justify-between md:justify-start relative items-center h-full px-4">
           <div className="">
-            <Logo />
+            <Logo visible={true} />
           </div>
+
           <ul className="w-full max-w-[calc(1200px+96px)] mx-auto  hidden md:flex text-foreground text-xl">
             <Links />
           </ul>
@@ -111,10 +120,10 @@ const FoldedMenu = () => {
   );
 };
 
-const Logo = () => {
+const Logo = ({ visible }: { visible: boolean }) => {
   return (
     <div className="flex items-center gap-x-3 h-16 md:h-20 w-16 md:w-20 mr-4">
-      <Link href="/">
+      <Link href="/" className={visible ? "opacity-100" : "opacity-0"}>
         <img
           src="/images/logo_small.svg"
           alt="logo"
