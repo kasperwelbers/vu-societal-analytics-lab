@@ -43,27 +43,9 @@ export default function RootLayout({
       <body className="relative flex flex-col min-h-screen">
         <CssWindowVariables />
         <Navbar />
-        <div className="flex relative items-center h-full px-4 z-10">
-          <div className="w-full max-w-[calc(1200px+412px)] mx-auto">
-            <VuLogo />
-          </div>
-        </div>
+
         <div className="w-full py-6 md:py-12">{children}</div>
       </body>
     </html>
   );
 }
-
-const VuLogo = () => {
-  return (
-    <div className="flex items-center gap-x-3 py-5 mr-4">
-      <Link href="https://vu.nl/nl">
-        <img src="/images/logo_vu.svg" alt="logo" className=" w-36 md:w-56" />
-      </Link>
-      <div className=" font-bold text-secondary text-[clamp(11px,2vw,16px)]">
-        <h3 className="">Faculty of Social Sciences</h3>
-        <h3 className="text-primary">Societal Analytics Lab</h3>
-      </div>
-    </div>
-  );
-};
