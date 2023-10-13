@@ -33,25 +33,26 @@ export default function Background({ children }: Props) {
       </div>
       <div className="relative pt-[0vh]">
         <div className="relative z-50">
-          <div className="mt-[clamp(7rem,24vw,14rem)] relative z-50  text-white  p-8 text-center font-bold text-4xl md:text-5xl lg:text-6xl text-balance ">
+          <div className="mt-[clamp(7rem,24vw,20rem)] relative z-50  text-white  p-8 text-center font-bold text-4xl md:text-5xl lg:text-6xl text-balance ">
             <h2
-              className="relative  leading-normal"
+              className="relative leading-normal"
               style={{ textShadow: "2px 2px 2px #0004" }}
             >
-              In a digital society
+              Digital Societies
               <br />
-              behavior leaves a trace
+              Leave Digital Traces
             </h2>
           </div>{" "}
         </div>
+        <div className="absolute top-[clamp(10rem,24vw,14rem)] right-0 w-full max-w-[800px] z-10 h-[60vh]"></div>
         <div className="relative z-10 pb-[60vh] lg:pb-[55vh] pt-[40vh] text-white  p-8 text-right font-bold text-4xl md:text-5xl lg:text-6xl text-balance ">
           <h2
             className="leading-normal "
             style={{ textShadow: "2px 2px 2px #fff4" }}
           >
-            Let's use these traces
+            Let's Use These Traces
             <br />
-            to benefit society!
+            To Benefit Society!
           </h2>
         </div>
       </div>

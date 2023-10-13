@@ -8,8 +8,8 @@ export default async function Index() {
 
   return (
     <div className="relative animate-fade-in">
-      <div className="relative  left-0 flex  h-full px-4 z-10">
-        <div className="w-full  mx-auto ">
+      <div className="relative  left-0 flex  h-full px-4 z-10 lg:mb-10">
+        <div className="w-full mx-auto">
           <VuLogo />
         </div>
       </div>
