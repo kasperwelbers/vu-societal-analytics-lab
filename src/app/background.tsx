@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface Props {
   children: React.ReactNode;
 }
@@ -14,8 +16,9 @@ export default function Background({ children }: Props) {
 
   return (
     <div className="relative h-full flex flex-col w-full z-0">
+      {/* <div className="Sun fixed top-[calc(100%-10vh-var(--scrollVh))] left-[calc(100%-10vh-var(--scrollPct))] rounded-[100%] bg-primary w-[20vh] h-[20vh] z-50" /> */}
       <div className={`fixed inset-0 bg-gradient-to-t ${bgFrom} ${bgTo}`}></div>
-      <div className="fixed left-0 right-0 flex flex-col overflow-visible z-40">
+      <div className="fixed left-0 right-0 flex flex-col overflow-visible z-40 pointer-events-none">
         <div
           className={`transition-transform ${skylineTranslate} relative flex w-[100%] flex-col bg-gradient-to-t from-slate-400 to-transparent`}
         >
@@ -28,7 +31,7 @@ export default function Background({ children }: Props) {
               <div className="relative h-10 z-0 bg-primary" />
             </div>
           </div>
-          <div className="bg-secondary h-[2000px]" />
+          <div className="bg-secondary h-[2000px]"></div>
         </div>
       </div>
       <div className="relative pt-[0vh]">
@@ -46,14 +49,27 @@ export default function Background({ children }: Props) {
         </div>
         <div className="absolute top-[clamp(10rem,24vw,14rem)] right-0 w-full max-w-[800px] z-10 h-[60vh]"></div>
         <div className="relative z-10 pb-[60vh] lg:pb-[55vh] pt-[40vh] text-white  p-8 text-right font-bold text-4xl md:text-5xl lg:text-6xl text-balance ">
-          <h2
-            className="leading-normal "
-            style={{ textShadow: "2px 2px 2px #fff4" }}
-          >
-            Let's Use These Traces
-            <br />
-            To Benefit Society!
-          </h2>
+          <div className="flex gap-3 justify-between items-center">
+            <Link
+              href="/kickoff"
+              className="relative z-50 flex-auto text-center"
+            >
+              <button
+                className={`z-50 py-4 px-2 md:px-8 font-semibold text-2xl text-white border-4 rounded-full border-white hover:bg-secondary shadow-md shadow-primary`}
+              >
+                JOIN OUR KICK-OFF EVENT!
+              </button>
+            </Link>
+
+            <h2
+              className="leading-normal "
+              style={{ textShadow: "2px 2px 2px #fff4" }}
+            >
+              Let's Use These Traces
+              <br />
+              To Benefit Society!
+            </h2>
+          </div>
         </div>
       </div>
     </div>

@@ -38,11 +38,13 @@ const Navbar = () => {
 const Links = () => {
   return (
     <>
-      <NavItem route="/about">About us</NavItem>
+      {/* <NavItem route="/about">About us</NavItem> */}
 
-      <NavItem route="/projects">Projects</NavItem>
+      {/* <NavItem route="/projects">Projects</NavItem> */}
 
-      <NavItem route="/contact">Contact</NavItem>
+      <NavItem route="/kickoff">Kick-off</NavItem>
+
+      {/* <NavItem route="/contact">Contact</NavItem> */}
     </>
   );
 };

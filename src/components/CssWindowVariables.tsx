@@ -3,11 +3,9 @@ import { useEffect } from "react";
 
 export default function CssWindowVariables() {
   useEffect(() => {
-    function setScroll() {
-      let scrollPct =
-        window.scrollY / (document.body.clientHeight - window.innerHeight);
-      scrollPct = 100 * Math.min(scrollPct, 1);
+    let hasScrolled = false;
 
+    function setScrollProperties(scrollPct: number) {
       document.documentElement.style.setProperty(
         "--scrollPct",
         `${scrollPct}%`
@@ -18,19 +16,16 @@ export default function CssWindowVariables() {
       );
     }
 
-    function setViewport() {
-      document.documentElement.style.setProperty(
-        "--vh",
-        `${window.innerHeight}px`
-      );
-      document.documentElement.style.setProperty(
-        "--vw",
-        `${window.innerWidth}px`
-      );
+    function setScroll() {
+      hasScrolled = true;
+      let scrollPct =
+        window.scrollY / (document.body.clientHeight - window.innerHeight);
+      scrollPct = 100 * Math.min(scrollPct, 1);
+
+      setScrollProperties(scrollPct);
     }
 
     window.addEventListener("scroll", setScroll);
-
     return () => {
       window.removeEventListener("scroll", setScroll);
     };
