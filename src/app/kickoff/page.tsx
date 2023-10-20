@@ -16,7 +16,7 @@ The newly established Societal Analytics Lab aims to be the faculty’s first po
 * 2️⃣ **Those Already in the Know**: If you're already familiar with computational methods but lack resources, **we provide the necessary tools and infrastructure** to facilitate your research project.
 
 
-Why Attend the Kick-Off?
+## Why Attend the Kick-Off?
 
 * 🎉 **A Glimpse into Computational Social Science**: Lab directors Wouter van Atteveldt and Kasper Welbers will provide an engaging introduction into the fascinating opportunities that computational methods can bring to social sciences.
 
@@ -30,7 +30,7 @@ Plus, we’ll have free food and drinks - something even our website cannot offe
 
 We hope to see you there!
 
-Wouter van Atteveldt, Kasper Welbers, and Sara Sramota
+Wouter van Atteveldt, Kasper Welbers, and Sarah Sramota
 `;
 
 export default async function Index() {

@@ -25,7 +25,11 @@ const Navbar = () => {
             <Logo visible={true} />
           </div>
 
-          <ul className="w-full max-w-[calc(1200px+96px)] mx-auto  hidden md:flex text-foreground text-xl">
+          <ul
+            className={`w-full  mx-auto  hidden md:flex text-foreground text-xl ${
+              home ? "" : "max-w-[calc(1200px+96px)]"
+            }`}
+          >
             <Links />
           </ul>
           <FoldedMenu />

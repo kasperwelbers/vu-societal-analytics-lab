@@ -31,7 +31,7 @@ export default function Background({ children }: Props) {
               <div className="relative h-10 z-0 bg-primary" />
             </div>
           </div>
-          <div className="bg-secondary h-[2000px]"></div>
+          <div className="bg-gradient-to-b from-10% from-secondary to-primary h-[100vh]"></div>
         </div>
       </div>
       <div className="relative pt-[0vh]">
