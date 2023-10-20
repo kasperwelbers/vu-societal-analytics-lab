@@ -6,25 +6,31 @@ const markdown = `
 # Join our Kick-off event!
 
 We are excited to announce the Kick-off meeting for the Societal Analytics Lab. 
-The meeting will take place on **November 9th at 4pm**, at the **[building], [room]**.
+The meeting will take place on **Thursday, November 9th** at **4pm**, in the **Senaatszaal, HG2E31**.
 
-## Why you should join
+## Get To Know Us!
+The newly established Societal Analytics Lab aims to be the faculty’s first point of contact for those interested in applying computational techniques in their research on societal issues. We want to foster research that fits the digital society that we live in, specifically targeting two groups of scholars:
 
-You already found this website, and it doesn't even serve food and drinks! 
-At the kick-off meeting we will tell you more about **what this lab can offer you**, 
-while making sure you **have a good time**. 
-We also want to hear from you **what you would like to see in the lab**, and how we can help you.
-Really, everyone want you to join, including you.
+* 1️⃣ **Those New to the Matter**: If you're curious about how computational methods can benefit your research, we offer guidance, training, and essential tools to boost your analytical career. Adding **innovative computational elements to grants can often make them more competitive**, and we’re happy to help you design, write, and execute research proposals. 
 
-## Who is this lab for?
+* 2️⃣ **Those Already in the Know**: If you're already familiar with computational methods but lack resources, **we provide the necessary tools and infrastructure** to facilitate your research project.
 
-The lab is for everyone interested in applying computational techniques to study societal issues.
-More specifically, we have two primary target groups:
 
-* Researchers that are **not yet familiar or starting out with computational techniques**, but would like to learn more about how they could be used in their research. 
-**The societal analystics lab will provide guidance, training and infrastructure**, so that you can chart new territory in your field, and write competitive grant proposals. 
-* The tech-savy, **computational masterminds that know what they want to do**, but lack the necessary infrastructure. 
-We aim to **facilitate tools and resources**, and would love to hear how you would like to see us spend money.   
+Why Attend the Kick-Off?
+
+* 🎉 **A Glimpse into Computational Social Science**: Lab directors Wouter van Atteveldt and Kasper Welbers will provide an engaging introduction into the fascinating opportunities that computational methods can bring to social sciences.
+
+* 🌐 **Learn About Us**: We will outline what the lab aims to achieve and what projects are in the pipeline.
+
+* 🗨️ **Have Your Say**: We'd love to hear what you’d like to see in the lab and how we can help you achieve your research goals!
+
+
+
+Plus, we’ll have free food and drinks - something even our website cannot offer!
+
+We hope to see you there!
+
+Wouter van Atteveldt, Kasper Welbers, and Sara Sramota
 `;
 
 export default async function Index() {
