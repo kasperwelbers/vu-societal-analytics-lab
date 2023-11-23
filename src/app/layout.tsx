@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   },
   description:
     "We are the Societal Analytics Lab of the Faculty of Social Science at the Vrije Universiteit Amsterdam",
+
   openGraph: {
     title: "Societal Analytics Lab",
     description:
