@@ -1,6 +1,6 @@
 {
-  "commit": "5258980fa819b3ee8ac2882bf9fb2b3e29e5dd78",
-  "generated": "2023-10-20T11:52:57.423Z",
+  "commit": "697197f6ecb0fc3cfe4aa5d47eb94aa28ee2a2b6",
+  "generated": "2023-11-28T09:49:41.405Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,24 +37,6 @@
       "slug": "projects",
       "status": "published",
       "title": "Projects"
-    },
-    {
-      "__outstatic": {
-        "commit": "21a4853c16446e7482e7e346ddef99eef0e5113a",
-        "hash": "3000624648",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "About the Societal Analytics Lab",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About"
     },
     {
       "__outstatic": {
@@ -144,6 +126,24 @@
       "slug": "sarah-sramota",
       "status": "draft",
       "title": "Sarah Sramota"
+    },
+    {
+      "__outstatic": {
+        "commit": "697197f6ecb0fc3cfe4aa5d47eb94aa28ee2a2b6",
+        "hash": "5144573",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "About the Societal Analytics Lab",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About"
     }
   ]
 }
