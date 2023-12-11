@@ -49,8 +49,8 @@ export default function Background({ children }: Props) {
         </div>
         <div className="absolute top-[clamp(10rem,24vw,14rem)] right-0 w-full max-w-[800px] z-10 h-[60vh]"></div>
         <div className="relative z-10 pb-[60vh] lg:pb-[55vh] pt-[40vh] text-white  p-8 text-right font-bold text-4xl md:text-5xl lg:text-6xl text-balance ">
-          <div className="flex gap-3 justify-between items-center">
-            <Link
+          <div className="flex gap-3 justify-center items-center">
+            {/* <Link
               href="/kickoff"
               className="relative z-50 flex-auto text-center"
             >
@@ -59,7 +59,7 @@ export default function Background({ children }: Props) {
               >
                 JOIN OUR KICK-OFF EVENT!
               </button>
-            </Link>
+            </Link> */}
 
             <h2
               className="leading-normal "
