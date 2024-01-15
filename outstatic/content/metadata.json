@@ -1,6 +1,6 @@
 {
-  "commit": "94a77b3d997178b4190456aaf4a160eb152bf5f6",
-  "generated": "Mon, 15 Jan 2024 08:45:13 GMT",
+  "commit": "d6d21fa47caf3354bedab5a3d454cc572726ca0e",
+  "generated": "2024-01-15T11:09:24.692Z",
   "metadata": [
     {
       "__outstatic": {
@@ -73,24 +73,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "ae7131d473bd9b9a11e35d2fa44bfe991eed12f6",
-        "hash": "1914484095",
-        "path": "outstatic/content/pages/education.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Education",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "education",
-      "status": "published",
-      "title": "Education"
     },
     {
       "__outstatic": {
@@ -198,6 +180,24 @@
       "slug": "services",
       "status": "published",
       "title": "Services"
+    },
+    {
+      "__outstatic": {
+        "commit": "d6d21fa47caf3354bedab5a3d454cc572726ca0e",
+        "hash": "932130601",
+        "path": "outstatic/content/pages/education.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Education",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "education",
+      "status": "published",
+      "title": "Education"
     }
   ]
 }
