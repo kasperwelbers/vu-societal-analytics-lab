@@ -3,10 +3,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "watch": "tsc --w",
+    "dev:ts": "npm run dev & npm run watch",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "watch": "tsc --w"
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
