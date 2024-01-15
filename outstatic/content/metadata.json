@@ -1,7 +1,25 @@
 {
-  "commit": "1aff4e9a6b171a2f85561925525364f6c3c9eca7",
-  "generated": "2024-01-15T11:19:23.636Z",
+  "commit": "1187e5bceb3cb2a666060f76346f88aeee6faa0a",
+  "generated": "Mon, 15 Jan 2024 11:30:45 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "9e0cbe49bac63c96aeea048f40f958cca1f08e81",
+        "hash": "2604623737",
+        "path": "outstatic/content/pages/contact.md"
+      },
+      "author": {
+        "name": "Nel Ruigrok",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/logo.svg",
+      "description": "Neem contact op",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "contact",
+      "status": "published",
+      "title": "Contact"
+    },
     {
       "__outstatic": {
         "commit": "4fbe7dcd00a51c0402787552265b27ce08e02630",
@@ -19,6 +37,42 @@
       "slug": "about",
       "status": "published",
       "title": "About"
+    },
+    {
+      "__outstatic": {
+        "commit": "bbca0b538930e6b9879460182cb3864558c5be16",
+        "hash": "2516473617",
+        "path": "outstatic/content/pages/services.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/logo.svg",
+      "description": "Services",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "services",
+      "status": "published",
+      "title": "Services"
+    },
+    {
+      "__outstatic": {
+        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
+        "hash": "3337587396",
+        "path": "outstatic/content/pages/projects.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Projects",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "projects",
+      "status": "published",
+      "title": "Projects"
     },
     {
       "__outstatic": {
@@ -58,21 +112,55 @@
     },
     {
       "__outstatic": {
-        "commit": "9e0cbe49bac63c96aeea048f40f958cca1f08e81",
-        "hash": "2604623737",
-        "path": "outstatic/content/pages/contact.md"
+        "commit": "7eadc60d5122c22676fd3c04b773046c2bb24025",
+        "hash": "932130601",
+        "path": "outstatic/content/pages/education.md"
       },
       "author": {
-        "name": "Nel Ruigrok",
+        "name": "Kasper Welbers",
         "picture": ""
       },
       "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Neem contact op",
+      "coverImage": "",
+      "description": "Education",
       "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "contact",
+      "slug": "education",
       "status": "published",
-      "title": "Contact"
+      "title": "Education"
+    },
+    {
+      "__outstatic": {
+        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
+        "hash": "3120460052",
+        "path": "outstatic/content/projects/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "projects",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "Project title goes here"
+    },
+    {
+      "__outstatic": {
+        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
+        "hash": "3120460052",
+        "path": "outstatic/content/services/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "services",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "Project title goes here"
     },
     {
       "__outstatic": {
@@ -127,77 +215,6 @@
       "slug": "kasper-welbers",
       "status": "draft",
       "title": "Kasper Welbers"
-    },
-    {
-      "__outstatic": {
-        "commit": "bbca0b538930e6b9879460182cb3864558c5be16",
-        "hash": "2516473617",
-        "path": "outstatic/content/pages/services.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Services",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "services",
-      "status": "published",
-      "title": "Services"
-    },
-    {
-      "__outstatic": {
-        "commit": "d6d21fa47caf3354bedab5a3d454cc572726ca0e",
-        "hash": "932130601",
-        "path": "outstatic/content/pages/education.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Education",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "education",
-      "status": "published",
-      "title": "Education"
-    },
-    {
-      "__outstatic": {
-        "commit": "e23a5b4b18def93398db6fb110155d230017d1c6",
-        "hash": "3337587396",
-        "path": "outstatic/content/pages/projects.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Projects",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "projects",
-      "status": "published",
-      "title": "Projects"
-    },
-    {
-      "__outstatic": {
-        "commit": "1aff4e9a6b171a2f85561925525364f6c3c9eca7",
-        "hash": "3120460052",
-        "path": "outstatic/content/projects/example.md"
-      },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "projects",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "Project title goes here"
     }
   ]
 }
