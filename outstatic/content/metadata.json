@@ -1,6 +1,6 @@
 {
-  "commit": "d6d21fa47caf3354bedab5a3d454cc572726ca0e",
-  "generated": "2024-01-15T11:09:24.692Z",
+  "commit": "e23a5b4b18def93398db6fb110155d230017d1c6",
+  "generated": "2024-01-15T11:18:39.860Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,24 +19,6 @@
       "slug": "about",
       "status": "published",
       "title": "About"
-    },
-    {
-      "__outstatic": {
-        "commit": "24170d50bf39a6d1c35e4178646e519fe0e419bf",
-        "hash": "1145954600",
-        "path": "outstatic/content/pages/projects.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Projects",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "projects",
-      "status": "published",
-      "title": "Projects"
     },
     {
       "__outstatic": {
@@ -198,6 +180,24 @@
       "slug": "education",
       "status": "published",
       "title": "Education"
+    },
+    {
+      "__outstatic": {
+        "commit": "e23a5b4b18def93398db6fb110155d230017d1c6",
+        "hash": "3337587396",
+        "path": "outstatic/content/pages/projects.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Projects",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "projects",
+      "status": "published",
+      "title": "Projects"
     }
   ]
 }

@@ -1,15 +1,16 @@
 ---
-title: "Projects"
-status: "published"
+title: 'Projects'
+status: 'published'
 author:
-  name: "Kasper Welbers"
-  picture: ""
-slug: "projects"
-description: "Projects"
-coverImage: ""
-publishedAt: "2022-03-17T05:35:07.322Z"
+  name: 'Kasper Welbers'
+  picture: ''
+slug: 'projects'
+description: 'Projects'
+coverImage: ''
+publishedAt: '2022-03-17T05:35:07.322Z'
 ---
 
 ## Projects
 
-At the moment we are setting up the infra
+This is an overview of all the projects
+
