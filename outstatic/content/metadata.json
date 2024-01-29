@@ -1,6 +1,6 @@
 {
-  "commit": "f638f53bf11f6538a82e385ec8d8b3169298c03a",
-  "generated": "2024-01-29T15:34:46.989Z",
+  "commit": "b06a3058ffc9ebe277cead9d2fdc474d6b173d8f",
+  "generated": "2024-01-29T15:40:20.024Z",
   "metadata": [
     {
       "__outstatic": {
@@ -233,6 +233,24 @@
       "slug": "grant-support",
       "status": "draft",
       "title": "Grant support"
+    },
+    {
+      "__outstatic": {
+        "commit": "b06a3058ffc9ebe277cead9d2fdc474d6b173d8f",
+        "hash": "2289702621",
+        "path": "outstatic/content/services/crowd-annotation-with-annocate.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+      },
+      "collection": "services",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-01-29T15:40:58.544Z",
+      "slug": "crowd-annotation-with-annocate",
+      "status": "draft",
+      "title": "Crowd-annotation with AnnoCate"
     }
   ]
 }
