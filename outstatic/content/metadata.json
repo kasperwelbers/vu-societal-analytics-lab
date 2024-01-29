@@ -1,6 +1,6 @@
 {
-  "commit": "ad2326fe2377dd92f99419d44acc7a35e13fa6d9",
-  "generated": "2024-01-29T15:27:13.086Z",
+  "commit": "12b62db77a9b4a3e64a0e94b81b946a9a2725392",
+  "generated": "2024-01-29T15:32:35.850Z",
   "metadata": [
     {
       "__outstatic": {
@@ -91,23 +91,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
-        "hash": "3120460052",
-        "path": "outstatic/content/services/example.md"
-      },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "services",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "Project title goes here"
     },
     {
       "__outstatic": {
@@ -233,6 +216,23 @@
       "slug": "grant-support",
       "status": "draft",
       "title": "Grant support"
+    },
+    {
+      "__outstatic": {
+        "commit": "12b62db77a9b4a3e64a0e94b81b946a9a2725392",
+        "hash": "145714311",
+        "path": "outstatic/content/services/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "services",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "The AmCAT document database"
     }
   ]
 }
