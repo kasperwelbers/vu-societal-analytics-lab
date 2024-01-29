@@ -10,9 +10,9 @@ coverImage: ''
 publishedAt: '2024-01-29T15:23:27.629Z'
 ---
 
-Are you (planning on) writing a grant proposal that involves a computational component? Please reach out if you feel that the Societal Analytics Lab could help strengthen your proposal. <br>
+## Support for grant proposals with a computational component
 
-<br>
+Are you (planning on) writing a grant proposal that involves a computational component? Please reach out if you feel that the Societal Analytics Lab could help strengthen your proposal.
 
 Ways in which we could be of service:
 

@@ -1,6 +1,6 @@
 {
-  "commit": "12b62db77a9b4a3e64a0e94b81b946a9a2725392",
-  "generated": "2024-01-29T15:32:35.850Z",
+  "commit": "f638f53bf11f6538a82e385ec8d8b3169298c03a",
+  "generated": "2024-01-29T15:34:46.989Z",
   "metadata": [
     {
       "__outstatic": {
@@ -201,24 +201,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ad2326fe2377dd92f99419d44acc7a35e13fa6d9",
-        "hash": "3533875283",
-        "path": "outstatic/content/services/grant-support.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
-      },
-      "collection": "services",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-01-29T15:23:27.629Z",
-      "slug": "grant-support",
-      "status": "draft",
-      "title": "Grant support"
-    },
-    {
-      "__outstatic": {
         "commit": "12b62db77a9b4a3e64a0e94b81b946a9a2725392",
         "hash": "145714311",
         "path": "outstatic/content/services/example.md"
@@ -233,6 +215,24 @@
       "slug": "example",
       "status": "published",
       "title": "The AmCAT document database"
+    },
+    {
+      "__outstatic": {
+        "commit": "f638f53bf11f6538a82e385ec8d8b3169298c03a",
+        "hash": "3205257646",
+        "path": "outstatic/content/services/grant-support.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+      },
+      "collection": "services",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-01-29T15:23:27.629Z",
+      "slug": "grant-support",
+      "status": "draft",
+      "title": "Grant support"
     }
   ]
 }
