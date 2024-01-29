@@ -1,6 +1,6 @@
 {
-  "commit": "b06a3058ffc9ebe277cead9d2fdc474d6b173d8f",
-  "generated": "2024-01-29T15:40:20.024Z",
+  "commit": "313761b62e0c75c38bf848b3e7c8f099e1d797a5",
+  "generated": "2024-01-29T15:47:03.565Z",
   "metadata": [
     {
       "__outstatic": {
@@ -251,6 +251,24 @@
       "slug": "crowd-annotation-with-annocate",
       "status": "draft",
       "title": "Crowd-annotation with AnnoCate"
+    },
+    {
+      "__outstatic": {
+        "commit": "313761b62e0c75c38bf848b3e7c8f099e1d797a5",
+        "hash": "1889338357",
+        "path": "outstatic/content/services/data-donation.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+      },
+      "collection": "services",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-01-29T15:47:03.315Z",
+      "slug": "data-donation",
+      "status": "draft",
+      "title": "Data Donation"
     }
   ]
 }
