@@ -1,6 +1,6 @@
 {
-  "commit": "1187e5bceb3cb2a666060f76346f88aeee6faa0a",
-  "generated": "Mon, 15 Jan 2024 11:30:45 GMT",
+  "commit": "dd7911a4934faed141c50428d800330b1bc11e13",
+  "generated": "Mon, 29 Jan 2024 15:04:29 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -132,12 +132,12 @@
       "__outstatic": {
         "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
         "hash": "3120460052",
-        "path": "outstatic/content/projects/example.md"
+        "path": "outstatic/content/services/example.md"
       },
       "author": {
         "name": "Kasper Welbers"
       },
-      "collection": "projects",
+      "collection": "services",
       "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
       "description": "Here we put a short description of the project.",
       "publishedAt": "2023-09-21T04:35:07.000Z",
@@ -149,12 +149,12 @@
       "__outstatic": {
         "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
         "hash": "3120460052",
-        "path": "outstatic/content/services/example.md"
+        "path": "outstatic/content/projects/example.md"
       },
       "author": {
         "name": "Kasper Welbers"
       },
-      "collection": "services",
+      "collection": "projects",
       "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
       "description": "Here we put a short description of the project.",
       "publishedAt": "2023-09-21T04:35:07.000Z",
