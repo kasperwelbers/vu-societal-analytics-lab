@@ -1,0 +1,24 @@
+---
+title: 'Grant support'
+status: 'draft'
+author:
+  name: 'Kasper Welbers'
+  picture: 'https://avatars.githubusercontent.com/u/6179240?v=4'
+slug: 'grant-support'
+description: ''
+coverImage: ''
+publishedAt: '2024-01-29T15:23:27.629Z'
+---
+
+Are you (planning on) writing a grant proposal that involves a computational component? Please reach out if you feel that the Societal Analytics Lab could help strengthen your proposal. <br>
+
+<br>
+
+Ways in which we could be of service:
+
+- Consultancy on what methods are appropriate and competitive
+
+- Providing feedback on feasibility and formulation
+
+- Vowing to support the research with resources and expertise
+

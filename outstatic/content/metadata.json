@@ -1,6 +1,6 @@
 {
-  "commit": "c6b0b3c003779039e11ee15c942203ef9acd1c3e",
-  "generated": "2024-01-29T15:17:12.577Z",
+  "commit": "ad2326fe2377dd92f99419d44acc7a35e13fa6d9",
+  "generated": "2024-01-29T15:27:13.086Z",
   "metadata": [
     {
       "__outstatic": {
@@ -215,6 +215,24 @@
       "slug": "services",
       "status": "published",
       "title": "Services"
+    },
+    {
+      "__outstatic": {
+        "commit": "ad2326fe2377dd92f99419d44acc7a35e13fa6d9",
+        "hash": "3533875283",
+        "path": "outstatic/content/services/grant-support.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+      },
+      "collection": "services",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-01-29T15:23:27.629Z",
+      "slug": "grant-support",
+      "status": "draft",
+      "title": "Grant support"
     }
   ]
 }
