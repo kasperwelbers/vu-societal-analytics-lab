@@ -10,5 +10,5 @@ coverImage: 'https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=1
 publishedAt: '2024-11-26T11:55:11.394Z'
 ---
 
-Lab Manager
+Lab Manager/ Researcher
 

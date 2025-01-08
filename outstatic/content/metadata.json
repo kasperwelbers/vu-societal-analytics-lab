@@ -1,6 +1,6 @@
 {
-  "commit": "198848a4b9d509d3569b522e68366ac5414af24b",
-  "generated": "Wed, 08 Jan 2025 09:39:23 GMT",
+  "commit": "7f52e5021dbdc645c4e58e8b4e97d3daf748a29a",
+  "generated": "2025-01-08T09:39:50.344Z",
   "metadata": [
     {
       "__outstatic": {
@@ -127,24 +127,6 @@
       "slug": "wouter-van-atteveldt",
       "status": "draft",
       "title": "Wouter van Atteveldt"
-    },
-    {
-      "__outstatic": {
-        "commit": "8fb9acd85e64dc826ca88a954856e99071a2b056",
-        "hash": "1791039527",
-        "path": "outstatic/content/people/sofia-gil-clavel.md"
-      },
-      "author": {
-        "name": "",
-        "picture": ""
-      },
-      "collection": "people",
-      "coverImage": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp",
-      "description": "",
-      "publishedAt": "2024-11-26T11:55:11.394Z",
-      "slug": "sofia-gil-clavel",
-      "status": "draft",
-      "title": "Sofia Gil-Clavel"
     },
     {
       "__outstatic": {
@@ -287,6 +269,24 @@
       "slug": "example",
       "status": "published",
       "title": "Project title goes here"
+    },
+    {
+      "__outstatic": {
+        "commit": "7f52e5021dbdc645c4e58e8b4e97d3daf748a29a",
+        "hash": "1117881720",
+        "path": "outstatic/content/people/sofia-gil-clavel.md"
+      },
+      "author": {
+        "name": "",
+        "picture": ""
+      },
+      "collection": "people",
+      "coverImage": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp",
+      "description": "",
+      "publishedAt": "2024-11-26T11:55:11.394Z",
+      "slug": "sofia-gil-clavel",
+      "status": "draft",
+      "title": "Sofia Gil-Clavel"
     }
   ]
 }
