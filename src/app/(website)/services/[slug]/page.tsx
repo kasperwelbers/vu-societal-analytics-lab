@@ -57,11 +57,13 @@ export default async function Project(params: Params) {
       <article className="mb-8 mt-18">
         <div className="grid md:grid-cols-[30%,1fr] gap-8">
           <div className="relative flex justify-center mb-2 md:mb-4 sm:mx-0 ">
-            <img
-              alt={project.title}
-              src={project.coverImage ?? ""}
-              className="w-1/2 md:w-full"
-            />
+            {project.coverImage ? (
+              <img
+                alt={project.title}
+                src={project.coverImage}
+                className="w-full md:w-full object-contain"
+              />
+            ) : null}
           </div>
           <div>
             <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
@@ -97,9 +99,10 @@ export default async function Project(params: Params) {
 }
 
 async function getData({ params }: Params) {
+  const p = await params;
   const db = await load();
   const project = await db
-    .find<Project>({ collection: "projects", slug: params.slug }, [
+    .find<Project>({ collection: "projects", slug: p.slug }, [
       "title",
       "publishedAt",
       "description",
@@ -113,7 +116,7 @@ async function getData({ params }: Params) {
   const content = await markdownToHtml(project.content);
 
   const moreProjects = await db
-    .find({ collection: "projects", slug: { $ne: params.slug } }, [
+    .find({ collection: "projects", slug: { $ne: p.slug } }, [
       "title",
       "slug",
       "coverImage",

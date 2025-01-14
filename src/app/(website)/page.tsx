@@ -1,5 +1,5 @@
 import { load } from "outstatic/server";
-import markdownToHtml from "../lib/markdownToHtml";
+import markdownToHtml from "@/lib/markdownToHtml";
 import Background from "./background";
 import Link from "next/link";
 
@@ -14,14 +14,14 @@ export default async function Index() {
         </div>
       </div>
       <Background>
-        {/* <div className="relative flex z-20 mt-[clamp(7rem,24vw,12rem)]  lg:-mt-8">
+        <div className="relative flex z-20 mt-[clamp(7rem,24vw,12rem)]  lg:-mt-8">
           <div className="flex lg:w-full max-w-[1200px] mx-auto lg:ml-auto  px-4 md:px-8 ">
             <div
               className="flex-auto relative w-full max-w-2xl prose mt-8 p-8 rounded prose-invert bg-[hsl(var(--secondary)/0.93)] lg:bg-primary lg:border-4 border-primary"
               dangerouslySetInnerHTML={{ __html: content }}
             />
           </div>
-        </div> */}
+        </div>
       </Background>
     </div>
   );

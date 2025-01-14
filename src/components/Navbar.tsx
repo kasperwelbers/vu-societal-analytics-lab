@@ -43,6 +43,7 @@ const Links = () => {
   return (
     <>
       <NavItem route="/about">About us</NavItem>
+      <NavItem route="/services">Services</NavItem>
       {/* <NavItem route="/projects">Projects</NavItem> */}
       <NavItem route="/contact">Contact</NavItem>
     </>
