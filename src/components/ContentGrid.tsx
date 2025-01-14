@@ -18,7 +18,7 @@ const ContentGrid = ({ items, collection }: Props) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mb-8">
         {items.map((item, id) => (
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
-            <div className="cursor-pointer border project-card rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden">
+            <div className="h-full w-full cursor-pointer border project-card rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden">
               <div className="sm:mx-0">
                 {item.coverImage ? (
                   <img
@@ -29,12 +29,15 @@ const ContentGrid = ({ items, collection }: Props) => {
                     height={0}
                     sizes="(min-width: 768px) 347px, 192px"
                   />
-                ) : null}
-                {collection === "projects" && (
-                  <h2 className="p-2 bg-opacity-80 bg-white text-center whitespace-nowrap font-bold text-3xl absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 shadow-lg rounded-lg">
-                    {item.title}
-                  </h2>
+                ) : (
+                  <div className="h-24" />
                 )}
+                {collection === "projects" ||
+                  (collection === "services" && (
+                    <h2 className="p-2 bg-opacity-60 bg-white text-center  text-2xl absolute w-full bottom-0 left-1/2 -translate-x-1/2 shadow-lg rounded-lg">
+                      {item.title}
+                    </h2>
+                  ))}
               </div>
               {collection === "posts" && (
                 <div className="p-4">

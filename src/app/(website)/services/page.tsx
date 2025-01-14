@@ -13,7 +13,6 @@ export default async function Index() {
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </section>
-
       {allServices.length > 0 && (
         <ContentGrid items={allServices} collection="services" />
       )}
