@@ -12,11 +12,15 @@ type Project = {
 } & OstDocument;
 
 interface Params {
-  params: {
-    slug: string;
-  };
+  slug: string;
 }
-export async function generateMetadata(params: Params): Promise<Metadata> {
+
+interface Props {
+  params: Promise<Params>;
+}
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
+
   const { project } = await getData(params);
 
   if (!project) {
@@ -49,7 +53,8 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
   };
 }
 
-export default async function Project(params: Params) {
+export default async function Project(props: Props) {
+  const params = await props.params;
   const { project, moreProjects, content } = await getData(params);
 
   return (
@@ -98,11 +103,10 @@ export default async function Project(params: Params) {
   );
 }
 
-async function getData({ params }: Params) {
-  const p = await params;
+async function getData(params: Params) {
   const db = await load();
   const project = await db
-    .find<Project>({ collection: "projects", slug: p.slug }, [
+    .find<Project>({ collection: "projects", slug: params.slug }, [
       "title",
       "publishedAt",
       "description",
@@ -116,7 +120,7 @@ async function getData({ params }: Params) {
   const content = await markdownToHtml(project.content);
 
   const moreProjects = await db
-    .find({ collection: "projects", slug: { $ne: p.slug } }, [
+    .find({ collection: "projects", slug: { $ne: params.slug } }, [
       "title",
       "slug",
       "coverImage",
