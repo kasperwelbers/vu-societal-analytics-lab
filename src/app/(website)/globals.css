@@ -35,10 +35,11 @@
         --radius: 0.5rem;
 
         --navbar-height: 80px;
-        --navbar-height-md: 112px;
+        --navbar-height-md: 96px;
 
         /* Dynamic (set via side effects) */
         --scrollPct: 0%;
+        --navBorder: 0px;
     }
 
     .dark {

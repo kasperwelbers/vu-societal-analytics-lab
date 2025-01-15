@@ -17,8 +17,8 @@ const Navbar = () => {
       <div
         className={`${
           home ? "" : "fixed"
-        } grid transition-all duration-500 w-full grid-rows-[var(--navbar-height)]  md:grid-rows-[var(--navbar-height-md)]
-        overflow-visible  backdrop-blur-sm bg-background-transparent d top-0 z-20 border-b-2`}
+        } grid transition duration-500 w-full grid-rows-[var(--navbar-height)]  md:grid-rows-[var(--navbar-height-md)]
+        overflow-visible  bg-background/95  top-0 z-20 border-b-[calc(0px+var(--navBorder))] border-secondary`}
       >
         <div className="flex justify-between md:justify-start relative items-center h-full px-4">
           <div className="">
@@ -58,7 +58,9 @@ const NavItem = (props: { children: React.ReactNode; route: string }) => {
     <Link href={props.route}>
       <button
         className={`transition  p-4 md:px-8    ${
-          isActive ? " text-primary" : " text-secondary"
+          isActive
+            ? " text-primary underline underline-offset-4"
+            : " text-secondary"
         } hover:text-primary`}
       >
         <span className="font-semibold ">{props.children}</span>
@@ -93,7 +95,7 @@ const FoldedMenu = () => {
   return (
     <div className="relative ">
       <Button
-        className={`bg-secondary p-1 mt-2 w-12 h-12 md:hidden rounded-full`}
+        className={`bg-background hover:bg-secondary focus:bg-secondary p-1 mt-2 w-12 h-12 md:hidden rounded-full fill-secondary hover:fill-background focus:fill-background`}
         onClick={() => {
           setShow(!show);
         }}
@@ -104,7 +106,7 @@ const FoldedMenu = () => {
           height="40"
           viewBox="0 0 24 24"
         >
-          <path fill="#fff" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z" />
+          <path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z" />
         </svg>
       </Button>
       <div
@@ -112,7 +114,7 @@ const FoldedMenu = () => {
         onClick={() => setShow(false)}
         className={`grid grid-rows-[0px] transition-all fixed top-20 right-4 bg-background overflow-hidden`}
       >
-        <div className="rounded w-full h-full border-4 border-secondary py-2">
+        <div className="rounded w-full h-full border border-secondary py-2">
           <ul className="flex flex-col">
             <Links />
           </ul>

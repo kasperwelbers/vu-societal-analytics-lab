@@ -8,11 +8,15 @@ export default function CssWindowVariables() {
     function setScrollProperties(scrollPct: number) {
       document.documentElement.style.setProperty(
         "--scrollPct",
-        `${scrollPct}%`
+        `${scrollPct}%`,
       );
       document.documentElement.style.setProperty(
         "--scrollVh",
-        `${scrollPct}vh`
+        `${scrollPct}vh`,
+      );
+      document.documentElement.style.setProperty(
+        "--navBorder",
+        scrollPct > 0 ? "1px" : "0px",
       );
     }
 

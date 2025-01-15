@@ -8,7 +8,7 @@ export default function Background({ children }: Props) {
   const bgTo = `from-[hsl(0,0%,calc(100%-var(--scrollPct)))]`;
   const bgFrom = `to-[hsl(25,80%,calc(100%-var(--scrollPct)/1.1))]`;
 
-  const skylineTranslate = "translate-y-[calc(var(--scrollVh)/3)]";
+  const skylineTranslate = " translate-y-[calc(var(--scrollVh)/3)]";
 
   const traceOpacity = "opacity-[calc(var(--scrollPct)*3-200%)]";
   const traceTranslate =
@@ -50,17 +50,6 @@ export default function Background({ children }: Props) {
         <div className="absolute top-[clamp(10rem,24vw,14rem)] right-0 w-full max-w-[800px] z-10 h-[60vh]"></div>
         <div className="relative z-10 pb-[60vh] lg:pb-[55vh] pt-[40vh] text-white  p-8 text-right font-bold text-4xl md:text-5xl lg:text-6xl text-balance ">
           <div className="flex gap-3 justify-center items-center">
-            {/* <Link
-              href="/kickoff"
-              className="relative z-50 flex-auto text-center"
-            >
-              <button
-                className={`z-50 py-4 px-2 md:px-8 font-semibold text-2xl text-white border-4 rounded-full border-white hover:bg-secondary shadow-md shadow-primary`}
-              >
-                JOIN OUR KICK-OFF EVENT!
-              </button>
-            </Link> */}
-
             <h2
               className="leading-normal "
               style={{ textShadow: "2px 2px 2px #fff4" }}
