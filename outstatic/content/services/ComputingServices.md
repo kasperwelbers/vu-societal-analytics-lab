@@ -1,13 +1,19 @@
--   [1) Insufficient RAM](#insufficient-ram)
-    -   [JupyterHub](#jupyterhub)
-    -   [High Performance Computer](#high-performance-computer)
--   [2) Insufficient storage memory](#insufficient-storage-memory)
-    -   [JupyterHub](#jupyterhub-1)
-    -   [High Performance Computer](#high-performance-computer-1)
--   [3) Lack of GPUs](#lack-of-gpus)
-    -   [High Performance Computer](#high-performance-computer-2)
-    -   [Computing server of the Societal Analytics
-        Lab](#computing-server-of-the-societal-analytics-lab)
+-   [Constrained by computing power? We can help
+    you!](#constrained-by-computing-power-we-can-help-you)
+    -   [1) Insufficient RAM](#insufficient-ram)
+        -   [JupyterHub](#jupyterhub)
+        -   [High Performance Computer](#high-performance-computer)
+    -   [2) Insufficient storage memory](#insufficient-storage-memory)
+        -   [JupyterHub](#jupyterhub-1)
+        -   [High Performance Computer](#high-performance-computer-1)
+    -   [3) Lack of GPUs](#lack-of-gpus)
+        -   [High Performance Computer](#high-performance-computer-2)
+        -   [Computing server of the Societal Analytics
+            Lab](#computing-server-of-the-societal-analytics-lab)
+
+# Constrained by computing power? We can help you!
+
+Written by Sofia Gil-Clavel.
 
 &lt;Figure 1 about here: Source: This image was created with the
 assistance of DALL·E 3, in January 22, 2025.&gt;
