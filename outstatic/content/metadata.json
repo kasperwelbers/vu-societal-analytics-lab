@@ -1,6 +1,6 @@
 {
-  "commit": "6da951eebfe342295be61ed54a59f37ddbd71cf9",
-  "generated": "2025-01-29T13:27:16.135Z",
+  "commit": "f24f4375aa44dcfa9478b49f801914f7c2483d4d",
+  "generated": "2025-01-29T13:57:12.956Z",
   "metadata": [
     {
       "__outstatic": {
@@ -288,6 +288,24 @@
       "slug": "example",
       "status": "published",
       "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
+    },
+    {
+      "__outstatic": {
+        "commit": "f24f4375aa44dcfa9478b49f801914f7c2483d4d",
+        "hash": "733071933",
+        "path": "outstatic/content/services/constrained-by-computing-power-we-can-help-you.md"
+      },
+      "author": {
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://avatars.githubusercontent.com/u/48443848?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/computationalneeds2_dalleimage-kxNT.png",
+      "description": "In this post, we talk about how to solve three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.",
+      "publishedAt": "2025-01-29T13:34:39.828Z",
+      "slug": "constrained-by-computing-power-we-can-help-you",
+      "status": "published",
+      "title": "Constrained by computing power? We can help you!"
     }
   ]
 }
