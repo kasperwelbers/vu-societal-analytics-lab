@@ -6,22 +6,21 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/48443848?v=4'
 slug: 'constrained-by-computing-power-we-can-help-you'
 description: 'In this post, we talk about how to solve three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.'
-coverImage: '/images/computationalneeds2_dalleimage-kxNT.png'
+coverImage: '/images/computationalneeds2_dalleimage-U0OT.png'
 publishedAt: '2025-01-29T13:34:39.828Z'
 ---
 
-- 
-  - [1) Insufficient RAM](#insufficient-ram) 
-    - [JupyterHub](#jupyterhub)
-    - [High Performance Computer](#high-performance-computer)
-  - [2) Insufficient storage memory](#insufficient-storage-memory) 
+- [1) Insufficient RAM](#insufficient-ram)
+  - [JupyterHub](#jupyterhub)
+  - [High Performance Computer](#high-performance-computer)
+
+
+  - [2) Insufficient storage memory](#insufficient-storage-memory)
     - [JupyterHub](#jupyterhub-1)
     - [High Performance Computer](#high-performance-computer-1)
-  - [3) Lack of GPUs](#lack-of-gpus) 
+  - [3) Lack of GPUs](#lack-of-gpus)
     - [High Performance Computer](#high-performance-computer-2)
     - [Computing server of the Societal Analytics Lab](#computing-server-of-the-societal-analytics-lab)
-
- 
 
 The cover image was created with the assistance of DALL·E 3, in January 22, 2025.
 

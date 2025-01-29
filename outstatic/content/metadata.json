@@ -1,6 +1,6 @@
 {
-  "commit": "23239e88ab18e65de7f3f32195cb74ee4acbd519",
-  "generated": "2025-01-29T13:59:52.585Z",
+  "commit": "968bb30d81210e22a633e135b95da6d61c13d707",
+  "generated": "2025-01-29T14:02:36.430Z",
   "metadata": [
     {
       "__outstatic": {
@@ -273,8 +273,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f24f4375aa44dcfa9478b49f801914f7c2483d4d",
-        "hash": "733071933",
+        "commit": "968bb30d81210e22a633e135b95da6d61c13d707",
+        "hash": "2725529664",
         "path": "outstatic/content/services/constrained-by-computing-power-we-can-help-you.md"
       },
       "author": {
@@ -282,7 +282,7 @@
         "picture": "https://avatars.githubusercontent.com/u/48443848?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/computationalneeds2_dalleimage-kxNT.png",
+      "coverImage": "/images/computationalneeds2_dalleimage-U0OT.png",
       "description": "In this post, we talk about how to solve three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.",
       "publishedAt": "2025-01-29T13:34:39.828Z",
       "slug": "constrained-by-computing-power-we-can-help-you",
