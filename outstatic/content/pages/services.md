@@ -10,5 +10,4 @@ coverImage: ''
 publishedAt: '2023-09-21T04:35:07.000Z'
 ---
 
-The Societal Analytics Lab offer a range of services for VU FSW researchers, and is involved in the development and maintenance of various digital infrastructure projects.
-
+The Societal Analytics Lab offers a range of services for VU FSW researchers, and is involved in the development and maintenance of various digital infrastructure projects.

@@ -1,6 +1,6 @@
 {
-  "commit": "968bb30d81210e22a633e135b95da6d61c13d707",
-  "generated": "2025-01-29T14:02:36.430Z",
+  "commit": "71e645be63714220a0ff82c62c86c2c44eae1303",
+  "generated": "2025-01-29T14:03:48.310Z",
   "metadata": [
     {
       "__outstatic": {
@@ -148,24 +148,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1b5332046dfa8e6368a4517bc351840b560673e3",
-        "hash": "1426661396",
-        "path": "outstatic/content/pages/services.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Services",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "services",
-      "status": "published",
-      "title": "Services"
-    },
-    {
-      "__outstatic": {
         "commit": "9fc7891be2b0c8364c0c177a71b27f5cf0176b54",
         "hash": "1117881720",
         "path": "outstatic/content/people/sofia-gil-clavel.md"
@@ -288,6 +270,24 @@
       "slug": "constrained-by-computing-power-we-can-help-you",
       "status": "published",
       "title": "Constrained by computing power? We can help you!"
+    },
+    {
+      "__outstatic": {
+        "commit": "71e645be63714220a0ff82c62c86c2c44eae1303",
+        "hash": "1278618927",
+        "path": "outstatic/content/pages/services.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Services",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "services",
+      "status": "published",
+      "title": "Services"
     }
   ]
 }
