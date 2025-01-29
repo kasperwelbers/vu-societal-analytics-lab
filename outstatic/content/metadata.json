@@ -1,7 +1,43 @@
 {
-  "commit": "1439ca3ddd1ef1df802123eadae3fc97f3532faa",
-  "generated": "Tue, 14 Jan 2025 16:02:06 GMT",
+  "commit": "82f885e43a50259209eca1bfb45cd19c65a64166",
+  "generated": "Wed, 29 Jan 2025 12:45:01 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "c631b0acd2e58cc1b9e6fa92e23f72da86967c75",
+        "hash": "2818259436",
+        "path": "outstatic/content/pages/education.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Education",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "education",
+      "status": "published",
+      "title": "Education"
+    },
+    {
+      "__outstatic": {
+        "commit": "9e0cbe49bac63c96aeea048f40f958cca1f08e81",
+        "hash": "2604623737",
+        "path": "outstatic/content/pages/contact.md"
+      },
+      "author": {
+        "name": "Nel Ruigrok",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/logo.svg",
+      "description": "Neem contact op",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "contact",
+      "status": "published",
+      "title": "Contact"
+    },
     {
       "__outstatic": {
         "commit": "4fbe7dcd00a51c0402787552265b27ce08e02630",
@@ -19,6 +55,42 @@
       "slug": "about",
       "status": "published",
       "title": "About"
+    },
+    {
+      "__outstatic": {
+        "commit": "b06c0851a636b38626bdb3445d7084695ff4aabc",
+        "hash": "1465053880",
+        "path": "outstatic/content/people/kasper-welbers.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+      },
+      "collection": "people",
+      "coverImage": "https://avatars.githubusercontent.com/u/6179240?s=400&u=bc62bb664986df4c700fdc68fc3539ca0893a0f8&v=4",
+      "description": "",
+      "publishedAt": "2023-09-26T11:57:02.330Z",
+      "slug": "kasper-welbers",
+      "status": "draft",
+      "title": "Kasper Welbers"
+    },
+    {
+      "__outstatic": {
+        "commit": "1b5332046dfa8e6368a4517bc351840b560673e3",
+        "hash": "1426661396",
+        "path": "outstatic/content/pages/services.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Services",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "services",
+      "status": "published",
+      "title": "Services"
     },
     {
       "__outstatic": {
@@ -76,39 +148,12 @@
     },
     {
       "__outstatic": {
-        "commit": "c631b0acd2e58cc1b9e6fa92e23f72da86967c75",
-        "hash": "2818259436",
-        "path": "outstatic/content/pages/education.md"
+        "commit": "6a26eac48ed39d5291c67291f22227baf4115b50",
+        "hash": "2386657455",
+        "path": "outstatic/content/services/AmCAT.md"
       },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Education",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "education",
-      "status": "published",
-      "title": "Education"
-    },
-    {
-      "__outstatic": {
-        "commit": "9e0cbe49bac63c96aeea048f40f958cca1f08e81",
-        "hash": "2604623737",
-        "path": "outstatic/content/pages/contact.md"
-      },
-      "author": {
-        "name": "Nel Ruigrok",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Neem contact op",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "contact",
-      "status": "published",
-      "title": "Contact"
+      "collection": "services",
+      "slug": "AmCAT"
     },
     {
       "__outstatic": {
@@ -127,6 +172,23 @@
       "slug": "wouter-van-atteveldt",
       "status": "draft",
       "title": "Wouter van Atteveldt"
+    },
+    {
+      "__outstatic": {
+        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
+        "hash": "3120460052",
+        "path": "outstatic/content/projects/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "projects",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "Project title goes here"
     },
     {
       "__outstatic": {
@@ -166,39 +228,20 @@
     },
     {
       "__outstatic": {
-        "commit": "b06c0851a636b38626bdb3445d7084695ff4aabc",
-        "hash": "1465053880",
-        "path": "outstatic/content/people/kasper-welbers.md"
+        "commit": "01ba4a80d1b1a627c04673c746b1c0dfdc4ceea0",
+        "hash": "145714311",
+        "path": "outstatic/content/services/example.md"
       },
       "author": {
-        "name": "Kasper Welbers",
-        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+        "name": "Kasper Welbers"
       },
-      "collection": "people",
-      "coverImage": "https://avatars.githubusercontent.com/u/6179240?s=400&u=bc62bb664986df4c700fdc68fc3539ca0893a0f8&v=4",
-      "description": "",
-      "publishedAt": "2023-09-26T11:57:02.330Z",
-      "slug": "kasper-welbers",
-      "status": "draft",
-      "title": "Kasper Welbers"
-    },
-    {
-      "__outstatic": {
-        "commit": "1b5332046dfa8e6368a4517bc351840b560673e3",
-        "hash": "1426661396",
-        "path": "outstatic/content/pages/services.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Services",
+      "collection": "services",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
       "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "services",
+      "slug": "example",
       "status": "published",
-      "title": "Services"
+      "title": "The AmCAT document database"
     },
     {
       "__outstatic": {
@@ -217,23 +260,6 @@
       "slug": "grant-support",
       "status": "draft",
       "title": "Grant support"
-    },
-    {
-      "__outstatic": {
-        "commit": "01ba4a80d1b1a627c04673c746b1c0dfdc4ceea0",
-        "hash": "145714311",
-        "path": "outstatic/content/services/example.md"
-      },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "services",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "The AmCAT document database"
     },
     {
       "__outstatic": {
@@ -273,20 +299,12 @@
     },
     {
       "__outstatic": {
-        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
-        "hash": "3120460052",
-        "path": "outstatic/content/projects/example.md"
+        "commit": "2b193fb79ccbcaff3d1b7366648956183c427df1",
+        "hash": "3256883340",
+        "path": "outstatic/content/services/ComputingServices.md"
       },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "projects",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "Project title goes here"
+      "collection": "services",
+      "slug": "ComputingServices"
     }
   ]
 }
