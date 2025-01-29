@@ -1,7 +1,25 @@
 {
-  "commit": "a4b9712e4bcccf04b3b509af84e74e68c60b0355",
-  "generated": "Wed, 29 Jan 2025 12:51:59 GMT",
+  "commit": "54d14850088e373036b355b2a1ddf705e0400768",
+  "generated": "Wed, 29 Jan 2025 13:11:34 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "4fbe7dcd00a51c0402787552265b27ce08e02630",
+        "hash": "2264582026",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "About the Societal Analytics Lab",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About"
+    },
     {
       "__outstatic": {
         "commit": "c631b0acd2e58cc1b9e6fa92e23f72da86967c75",
@@ -40,9 +58,27 @@
     },
     {
       "__outstatic": {
-        "commit": "4fbe7dcd00a51c0402787552265b27ce08e02630",
-        "hash": "2264582026",
-        "path": "outstatic/content/pages/about.md"
+        "commit": "e95804603c4d08cc308147618b5ba1f7f8166264",
+        "hash": "431139568",
+        "path": "outstatic/content/pages/members.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/logo.svg",
+      "description": "Members",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "members",
+      "status": "published",
+      "title": "Members"
+    },
+    {
+      "__outstatic": {
+        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
+        "hash": "3337587396",
+        "path": "outstatic/content/pages/projects.md"
       },
       "author": {
         "name": "Kasper Welbers",
@@ -50,11 +86,29 @@
       },
       "collection": "pages",
       "coverImage": "",
-      "description": "About the Societal Analytics Lab",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "about",
+      "description": "Projects",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "projects",
       "status": "published",
-      "title": "About"
+      "title": "Projects"
+    },
+    {
+      "__outstatic": {
+        "commit": "107abc5c6151ea118998c49e9214afb1d766dd3c",
+        "hash": "2804311180",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/logo_small.svg",
+      "description": "The VU FSW Societal Analytics Lab",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     },
     {
       "__outstatic": {
@@ -94,69 +148,6 @@
     },
     {
       "__outstatic": {
-        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
-        "hash": "3337587396",
-        "path": "outstatic/content/pages/projects.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Projects",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "projects",
-      "status": "published",
-      "title": "Projects"
-    },
-    {
-      "__outstatic": {
-        "commit": "e95804603c4d08cc308147618b5ba1f7f8166264",
-        "hash": "431139568",
-        "path": "outstatic/content/pages/members.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Members",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "members",
-      "status": "published",
-      "title": "Members"
-    },
-    {
-      "__outstatic": {
-        "commit": "107abc5c6151ea118998c49e9214afb1d766dd3c",
-        "hash": "2804311180",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo_small.svg",
-      "description": "The VU FSW Societal Analytics Lab",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "6a26eac48ed39d5291c67291f22227baf4115b50",
-        "hash": "2386657455",
-        "path": "outstatic/content/services/AmCAT.md"
-      },
-      "collection": "services",
-      "slug": "AmCAT"
-    },
-    {
-      "__outstatic": {
         "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
         "hash": "3120460052",
         "path": "outstatic/content/projects/example.md"
@@ -192,21 +183,12 @@
     },
     {
       "__outstatic": {
-        "commit": "9fc7891be2b0c8364c0c177a71b27f5cf0176b54",
-        "hash": "1117881720",
-        "path": "outstatic/content/people/sofia-gil-clavel.md"
+        "commit": "6a26eac48ed39d5291c67291f22227baf4115b50",
+        "hash": "2386657455",
+        "path": "outstatic/content/services/AmCAT.md"
       },
-      "author": {
-        "name": "",
-        "picture": ""
-      },
-      "collection": "people",
-      "coverImage": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp",
-      "description": "",
-      "publishedAt": "2024-11-26T11:55:11.394Z",
-      "slug": "sofia-gil-clavel",
-      "status": "draft",
-      "title": "Sofia Gil-Clavel"
+      "collection": "services",
+      "slug": "AmCAT"
     },
     {
       "__outstatic": {
@@ -228,9 +210,36 @@
     },
     {
       "__outstatic": {
-        "commit": "1fa04b73923bc2c2f261fb6aee6586d86167e07f",
-        "hash": "3205257646",
-        "path": "outstatic/content/services/grant-support.md"
+        "commit": "9fc7891be2b0c8364c0c177a71b27f5cf0176b54",
+        "hash": "1117881720",
+        "path": "outstatic/content/people/sofia-gil-clavel.md"
+      },
+      "author": {
+        "name": "",
+        "picture": ""
+      },
+      "collection": "people",
+      "coverImage": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp",
+      "description": "",
+      "publishedAt": "2024-11-26T11:55:11.394Z",
+      "slug": "sofia-gil-clavel",
+      "status": "draft",
+      "title": "Sofia Gil-Clavel"
+    },
+    {
+      "__outstatic": {
+        "commit": "2b193fb79ccbcaff3d1b7366648956183c427df1",
+        "hash": "3256883340",
+        "path": "outstatic/content/services/ComputingServices.md"
+      },
+      "collection": "services",
+      "slug": "ComputingServices"
+    },
+    {
+      "__outstatic": {
+        "commit": "66b147f7d319bff8eea7e8be93e54e8b5a573d27",
+        "hash": "2289702621",
+        "path": "outstatic/content/services/crowd-annotation-with-annocate.md"
       },
       "author": {
         "name": "Kasper Welbers",
@@ -239,10 +248,10 @@
       "collection": "services",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-01-29T15:23:27.629Z",
-      "slug": "grant-support",
+      "publishedAt": "2024-01-29T15:40:58.544Z",
+      "slug": "crowd-annotation-with-annocate",
       "status": "draft",
-      "title": "Grant support"
+      "title": "Crowd-annotation with AnnoCate"
     },
     {
       "__outstatic": {
@@ -281,9 +290,9 @@
     },
     {
       "__outstatic": {
-        "commit": "66b147f7d319bff8eea7e8be93e54e8b5a573d27",
-        "hash": "2289702621",
-        "path": "outstatic/content/services/crowd-annotation-with-annocate.md"
+        "commit": "1fa04b73923bc2c2f261fb6aee6586d86167e07f",
+        "hash": "3205257646",
+        "path": "outstatic/content/services/grant-support.md"
       },
       "author": {
         "name": "Kasper Welbers",
@@ -292,19 +301,10 @@
       "collection": "services",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-01-29T15:40:58.544Z",
-      "slug": "crowd-annotation-with-annocate",
+      "publishedAt": "2024-01-29T15:23:27.629Z",
+      "slug": "grant-support",
       "status": "draft",
-      "title": "Crowd-annotation with AnnoCate"
-    },
-    {
-      "__outstatic": {
-        "commit": "2b193fb79ccbcaff3d1b7366648956183c427df1",
-        "hash": "3256883340",
-        "path": "outstatic/content/services/ComputingServices.md"
-      },
-      "collection": "services",
-      "slug": "ComputingServices"
+      "title": "Grant support"
     }
   ]
 }
