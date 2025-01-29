@@ -1,6 +1,6 @@
 {
-  "commit": "fa230d10841138126caf2f9568a253ebb245d778",
-  "generated": "Wed, 29 Jan 2025 13:15:25 GMT",
+  "commit": "6da951eebfe342295be61ed54a59f37ddbd71cf9",
+  "generated": "2025-01-29T13:27:03.135Z",
   "metadata": [
     {
       "__outstatic": {
@@ -238,23 +238,6 @@
     },
     {
       "__outstatic": {
-        "commit": "01ba4a80d1b1a627c04673c746b1c0dfdc4ceea0",
-        "hash": "145714311",
-        "path": "outstatic/content/services/example.md"
-      },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "services",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "The AmCAT document database"
-    },
-    {
-      "__outstatic": {
         "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
         "hash": "3120460052",
         "path": "outstatic/content/projects/example.md"
@@ -287,6 +270,24 @@
       "slug": "data-donation",
       "status": "draft",
       "title": "Data Donation"
+    },
+    {
+      "__outstatic": {
+        "commit": "6da951eebfe342295be61ed54a59f37ddbd71cf9",
+        "hash": "1032445178",
+        "path": "outstatic/content/services/example.md"
+      },
+      "author": {
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
+      },
+      "collection": "services",
+      "coverImage": "/images/logo-IwNT.svg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
     }
   ]
 }
