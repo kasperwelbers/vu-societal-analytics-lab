@@ -1,6 +1,6 @@
 {
   "commit": "6da951eebfe342295be61ed54a59f37ddbd71cf9",
-  "generated": "2025-01-29T13:27:03.135Z",
+  "generated": "2025-01-29T13:27:16.135Z",
   "metadata": [
     {
       "__outstatic": {
@@ -274,7 +274,7 @@
     {
       "__outstatic": {
         "commit": "6da951eebfe342295be61ed54a59f37ddbd71cf9",
-        "hash": "1032445178",
+        "hash": "3800419676",
         "path": "outstatic/content/services/example.md"
       },
       "author": {
@@ -282,9 +282,9 @@
         "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
       },
       "collection": "services",
-      "coverImage": "/images/logo-IwNT.svg",
+      "coverImage": "/images/logo-cwMj.svg",
       "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "publishedAt": "2025-01-29T05:35:07.000Z",
       "slug": "example",
       "status": "published",
       "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
