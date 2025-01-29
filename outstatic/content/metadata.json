@@ -1,6 +1,6 @@
 {
-  "commit": "4f30e6a298ba592885f9de3ff6f54324c5996e18",
-  "generated": "2025-01-29T16:06:13.254Z",
+  "commit": "5b0c173a2ca0286389eea59fc06fe1699b875885",
+  "generated": "Wed, 29 Jan 2025 16:07:32 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -19,6 +19,24 @@
       "slug": "about",
       "status": "published",
       "title": "About"
+    },
+    {
+      "__outstatic": {
+        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
+        "hash": "3337587396",
+        "path": "outstatic/content/pages/projects.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Projects",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "projects",
+      "status": "published",
+      "title": "Projects"
     },
     {
       "__outstatic": {
@@ -58,24 +76,6 @@
     },
     {
       "__outstatic": {
-        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
-        "hash": "3337587396",
-        "path": "outstatic/content/pages/projects.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Projects",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "projects",
-      "status": "published",
-      "title": "Projects"
-    },
-    {
-      "__outstatic": {
         "commit": "c631b0acd2e58cc1b9e6fa92e23f72da86967c75",
         "hash": "2818259436",
         "path": "outstatic/content/pages/education.md"
@@ -94,21 +94,38 @@
     },
     {
       "__outstatic": {
-        "commit": "b06c0851a636b38626bdb3445d7084695ff4aabc",
-        "hash": "1465053880",
-        "path": "outstatic/content/people/kasper-welbers.md"
+        "commit": "7feb75f4757407a33d0e70ed64e02f9a6e8724b2",
+        "hash": "2060247466",
+        "path": "outstatic/content/pages/contact.md"
       },
       "author": {
-        "name": "Kasper Welbers",
-        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+        "name": "Nel Ruigrok",
+        "picture": ""
       },
-      "collection": "people",
-      "coverImage": "https://avatars.githubusercontent.com/u/6179240?s=400&u=bc62bb664986df4c700fdc68fc3539ca0893a0f8&v=4",
-      "description": "",
-      "publishedAt": "2023-09-26T11:57:02.330Z",
-      "slug": "kasper-welbers",
-      "status": "draft",
-      "title": "Kasper Welbers"
+      "collection": "pages",
+      "coverImage": "/images/logo.svg",
+      "description": "Neem contact op",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "contact",
+      "status": "published",
+      "title": "Contact"
+    },
+    {
+      "__outstatic": {
+        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
+        "hash": "3120460052",
+        "path": "outstatic/content/projects/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "projects",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "Project title goes here"
     },
     {
       "__outstatic": {
@@ -148,21 +165,57 @@
     },
     {
       "__outstatic": {
-        "commit": "66b147f7d319bff8eea7e8be93e54e8b5a573d27",
-        "hash": "2289702621",
-        "path": "outstatic/content/services/crowd-annotation-with-annocate.md"
+        "commit": "b06c0851a636b38626bdb3445d7084695ff4aabc",
+        "hash": "1465053880",
+        "path": "outstatic/content/people/kasper-welbers.md"
       },
       "author": {
         "name": "Kasper Welbers",
         "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
       },
-      "collection": "services",
-      "coverImage": "",
+      "collection": "people",
+      "coverImage": "https://avatars.githubusercontent.com/u/6179240?s=400&u=bc62bb664986df4c700fdc68fc3539ca0893a0f8&v=4",
       "description": "",
-      "publishedAt": "2024-01-29T15:40:58.544Z",
-      "slug": "crowd-annotation-with-annocate",
+      "publishedAt": "2023-09-26T11:57:02.330Z",
+      "slug": "kasper-welbers",
       "status": "draft",
-      "title": "Crowd-annotation with AnnoCate"
+      "title": "Kasper Welbers"
+    },
+    {
+      "__outstatic": {
+        "commit": "a9a15b69bf6ab445bd7eea7efbc80c6f5fa06bfc",
+        "hash": "1278618927",
+        "path": "outstatic/content/pages/services.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Services",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "services",
+      "status": "published",
+      "title": "Services"
+    },
+    {
+      "__outstatic": {
+        "commit": "c7d04277f616cc85c34ed374945719abaeefd396",
+        "hash": "1062798162",
+        "path": "outstatic/content/services/constrained-by-computing-power-we-can-help-you.md"
+      },
+      "author": {
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://avatars.githubusercontent.com/u/48443848?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/computationalneeds2_dalleimage-U0OT.png",
+      "description": "In this post, we talk about how to solve three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.",
+      "publishedAt": "2025-01-29T13:34:39.828Z",
+      "slug": "constrained-by-computing-power-we-can-help-you",
+      "status": "published",
+      "title": "Constrained by computing power? We can help you!"
     },
     {
       "__outstatic": {
@@ -184,20 +237,21 @@
     },
     {
       "__outstatic": {
-        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
-        "hash": "3120460052",
-        "path": "outstatic/content/projects/example.md"
+        "commit": "1635819c9d140f4414f4eac09efab0c30dd574a6",
+        "hash": "3800419676",
+        "path": "outstatic/content/services/example.md"
       },
       "author": {
-        "name": "Kasper Welbers"
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
       },
-      "collection": "projects",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "collection": "services",
+      "coverImage": "/images/logo-cwMj.svg",
       "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "publishedAt": "2025-01-29T05:35:07.000Z",
       "slug": "example",
       "status": "published",
-      "title": "Project title goes here"
+      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
     },
     {
       "__outstatic": {
@@ -219,75 +273,21 @@
     },
     {
       "__outstatic": {
-        "commit": "6da951eebfe342295be61ed54a59f37ddbd71cf9",
-        "hash": "3800419676",
-        "path": "outstatic/content/services/example.md"
-      },
-      "author": {
-        "name": "Sofia Gil-Clavel",
-        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
-      },
-      "collection": "services",
-      "coverImage": "/images/logo-cwMj.svg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2025-01-29T05:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
-    },
-    {
-      "__outstatic": {
-        "commit": "71e645be63714220a0ff82c62c86c2c44eae1303",
-        "hash": "1278618927",
-        "path": "outstatic/content/pages/services.md"
+        "commit": "66b147f7d319bff8eea7e8be93e54e8b5a573d27",
+        "hash": "2289702621",
+        "path": "outstatic/content/services/crowd-annotation-with-annocate.md"
       },
       "author": {
         "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Services",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "services",
-      "status": "published",
-      "title": "Services"
-    },
-    {
-      "__outstatic": {
-        "commit": "896b89acc40c4fef022ab80c2f2dde7f0def3f5d",
-        "hash": "2060247466",
-        "path": "outstatic/content/pages/contact.md"
-      },
-      "author": {
-        "name": "Nel Ruigrok",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Neem contact op",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "contact",
-      "status": "published",
-      "title": "Contact"
-    },
-    {
-      "__outstatic": {
-        "commit": "4f30e6a298ba592885f9de3ff6f54324c5996e18",
-        "hash": "1062798162",
-        "path": "outstatic/content/services/constrained-by-computing-power-we-can-help-you.md"
-      },
-      "author": {
-        "name": "Sofia Gil-Clavel",
-        "picture": "https://avatars.githubusercontent.com/u/48443848?v=4"
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/computationalneeds2_dalleimage-U0OT.png",
-      "description": "In this post, we talk about how to solve three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.",
-      "publishedAt": "2025-01-29T13:34:39.828Z",
-      "slug": "constrained-by-computing-power-we-can-help-you",
-      "status": "published",
-      "title": "Constrained by computing power? We can help you!"
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-01-29T15:40:58.544Z",
+      "slug": "crowd-annotation-with-annocate",
+      "status": "draft",
+      "title": "Crowd-annotation with AnnoCate"
     }
   ]
 }
