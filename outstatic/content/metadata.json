@@ -1,6 +1,6 @@
 {
-  "commit": "82f885e43a50259209eca1bfb45cd19c65a64166",
-  "generated": "Wed, 29 Jan 2025 12:45:01 GMT",
+  "commit": "a4b9712e4bcccf04b3b509af84e74e68c60b0355",
+  "generated": "Wed, 29 Jan 2025 12:51:59 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -157,6 +157,23 @@
     },
     {
       "__outstatic": {
+        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
+        "hash": "3120460052",
+        "path": "outstatic/content/projects/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "projects",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "Project title goes here"
+    },
+    {
+      "__outstatic": {
         "commit": "89ad5dc3f1de054adf601ba248c05082a15d296d",
         "hash": "2887620423",
         "path": "outstatic/content/people/wouter-van-atteveldt.md"
@@ -172,23 +189,6 @@
       "slug": "wouter-van-atteveldt",
       "status": "draft",
       "title": "Wouter van Atteveldt"
-    },
-    {
-      "__outstatic": {
-        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
-        "hash": "3120460052",
-        "path": "outstatic/content/projects/example.md"
-      },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "projects",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "Project title goes here"
     },
     {
       "__outstatic": {
@@ -228,23 +228,6 @@
     },
     {
       "__outstatic": {
-        "commit": "01ba4a80d1b1a627c04673c746b1c0dfdc4ceea0",
-        "hash": "145714311",
-        "path": "outstatic/content/services/example.md"
-      },
-      "author": {
-        "name": "Kasper Welbers"
-      },
-      "collection": "services",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "The AmCAT document database"
-    },
-    {
-      "__outstatic": {
         "commit": "1fa04b73923bc2c2f261fb6aee6586d86167e07f",
         "hash": "3205257646",
         "path": "outstatic/content/services/grant-support.md"
@@ -260,6 +243,23 @@
       "slug": "grant-support",
       "status": "draft",
       "title": "Grant support"
+    },
+    {
+      "__outstatic": {
+        "commit": "01ba4a80d1b1a627c04673c746b1c0dfdc4ceea0",
+        "hash": "145714311",
+        "path": "outstatic/content/services/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "services",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "The AmCAT document database"
     },
     {
       "__outstatic": {
