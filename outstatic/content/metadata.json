@@ -1,6 +1,6 @@
 {
-  "commit": "71e645be63714220a0ff82c62c86c2c44eae1303",
-  "generated": "2025-01-29T14:03:48.310Z",
+  "commit": "896b89acc40c4fef022ab80c2f2dde7f0def3f5d",
+  "generated": "2025-01-29T14:09:44.461Z",
   "metadata": [
     {
       "__outstatic": {
@@ -91,24 +91,6 @@
       "slug": "education",
       "status": "published",
       "title": "Education"
-    },
-    {
-      "__outstatic": {
-        "commit": "9e0cbe49bac63c96aeea048f40f958cca1f08e81",
-        "hash": "2604623737",
-        "path": "outstatic/content/pages/contact.md"
-      },
-      "author": {
-        "name": "Nel Ruigrok",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Neem contact op",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "contact",
-      "status": "published",
-      "title": "Contact"
     },
     {
       "__outstatic": {
@@ -288,6 +270,24 @@
       "slug": "services",
       "status": "published",
       "title": "Services"
+    },
+    {
+      "__outstatic": {
+        "commit": "896b89acc40c4fef022ab80c2f2dde7f0def3f5d",
+        "hash": "2060247466",
+        "path": "outstatic/content/pages/contact.md"
+      },
+      "author": {
+        "name": "Nel Ruigrok",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/logo.svg",
+      "description": "Neem contact op",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "contact",
+      "status": "published",
+      "title": "Contact"
     }
   ]
 }
