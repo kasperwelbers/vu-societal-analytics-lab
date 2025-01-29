@@ -10,18 +10,6 @@ coverImage: '/images/computationalneeds2_dalleimage-U0OT.png'
 publishedAt: '2025-01-29T13:34:39.828Z'
 ---
 
-- [1) Insufficient RAM](#insufficient-ram)
-  - [JupyterHub](#jupyterhub)
-  - [High Performance Computer](#high-performance-computer)
-
-
-  - [2) Insufficient storage memory](#insufficient-storage-memory)
-    - [JupyterHub](#jupyterhub-1)
-    - [High Performance Computer](#high-performance-computer-1)
-  - [3) Lack of GPUs](#lack-of-gpus)
-    - [High Performance Computer](#high-performance-computer-2)
-    - [Computing server of the Societal Analytics Lab](#computing-server-of-the-societal-analytics-lab)
-
 The cover image was created with the assistance of DALL·E 3, in January 22, 2025.
 
 The [Societal Analytics Lab](https://www.societal-analytics.nl/) works together with the IT for Research department to help lab members access hardware and software. We aim to help VU researchers face three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.

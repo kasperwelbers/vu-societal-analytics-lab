@@ -1,6 +1,6 @@
 {
-  "commit": "896b89acc40c4fef022ab80c2f2dde7f0def3f5d",
-  "generated": "2025-01-29T14:09:44.461Z",
+  "commit": "4f30e6a298ba592885f9de3ff6f54324c5996e18",
+  "generated": "2025-01-29T16:06:13.254Z",
   "metadata": [
     {
       "__outstatic": {
@@ -237,24 +237,6 @@
     },
     {
       "__outstatic": {
-        "commit": "968bb30d81210e22a633e135b95da6d61c13d707",
-        "hash": "2725529664",
-        "path": "outstatic/content/services/constrained-by-computing-power-we-can-help-you.md"
-      },
-      "author": {
-        "name": "Sofia Gil-Clavel",
-        "picture": "https://avatars.githubusercontent.com/u/48443848?v=4"
-      },
-      "collection": "services",
-      "coverImage": "/images/computationalneeds2_dalleimage-U0OT.png",
-      "description": "In this post, we talk about how to solve three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.",
-      "publishedAt": "2025-01-29T13:34:39.828Z",
-      "slug": "constrained-by-computing-power-we-can-help-you",
-      "status": "published",
-      "title": "Constrained by computing power? We can help you!"
-    },
-    {
-      "__outstatic": {
         "commit": "71e645be63714220a0ff82c62c86c2c44eae1303",
         "hash": "1278618927",
         "path": "outstatic/content/pages/services.md"
@@ -288,6 +270,24 @@
       "slug": "contact",
       "status": "published",
       "title": "Contact"
+    },
+    {
+      "__outstatic": {
+        "commit": "4f30e6a298ba592885f9de3ff6f54324c5996e18",
+        "hash": "1062798162",
+        "path": "outstatic/content/services/constrained-by-computing-power-we-can-help-you.md"
+      },
+      "author": {
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://avatars.githubusercontent.com/u/48443848?v=4"
+      },
+      "collection": "services",
+      "coverImage": "/images/computationalneeds2_dalleimage-U0OT.png",
+      "description": "In this post, we talk about how to solve three common issues related with computing power: 1) insufficient RAM, 2) insufficient storage memory, and 3) lack of GPUs.",
+      "publishedAt": "2025-01-29T13:34:39.828Z",
+      "slug": "constrained-by-computing-power-we-can-help-you",
+      "status": "published",
+      "title": "Constrained by computing power? We can help you!"
     }
   ]
 }
