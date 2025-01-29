@@ -1,6 +1,6 @@
 {
-  "commit": "f24f4375aa44dcfa9478b49f801914f7c2483d4d",
-  "generated": "2025-01-29T13:57:12.956Z",
+  "commit": "23239e88ab18e65de7f3f32195cb74ee4acbd519",
+  "generated": "2025-01-29T13:59:52.585Z",
   "metadata": [
     {
       "__outstatic": {
@@ -127,24 +127,6 @@
       "slug": "kasper-welbers",
       "status": "draft",
       "title": "Kasper Welbers"
-    },
-    {
-      "__outstatic": {
-        "commit": "5c1a9582d5bcd976673fe11a151f725d02c08ed2",
-        "hash": "3812020910",
-        "path": "outstatic/content/people/sarah-sramota.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
-      },
-      "collection": "people",
-      "coverImage": "https://pbs.twimg.com/profile_images/1655865829391466496/V1Ge6aDi_400x400.jpg",
-      "description": "",
-      "publishedAt": "2023-10-20T12:04:36.376Z",
-      "slug": "sarah-sramota",
-      "status": "draft",
-      "title": "Sarah Sramota"
     },
     {
       "__outstatic": {
