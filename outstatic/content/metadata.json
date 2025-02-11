@@ -1,6 +1,6 @@
 {
-  "commit": "030d94e42c8554e9a850d0f5f123a07e8b0f37c0",
-  "generated": "2025-02-11T09:50:25.044Z",
+  "commit": "5a9d43165f7af5cfbb22cb3351f9fda5c91b4498",
+  "generated": "Tue, 11 Feb 2025 09:50:51 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -22,24 +22,6 @@
     },
     {
       "__outstatic": {
-        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
-        "hash": "3337587396",
-        "path": "outstatic/content/pages/projects.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Projects",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "projects",
-      "status": "published",
-      "title": "Projects"
-    },
-    {
-      "__outstatic": {
         "commit": "e95804603c4d08cc308147618b5ba1f7f8166264",
         "hash": "431139568",
         "path": "outstatic/content/pages/members.md"
@@ -55,42 +37,6 @@
       "slug": "members",
       "status": "published",
       "title": "Members"
-    },
-    {
-      "__outstatic": {
-        "commit": "107abc5c6151ea118998c49e9214afb1d766dd3c",
-        "hash": "2804311180",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/logo_small.svg",
-      "description": "The VU FSW Societal Analytics Lab",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "c631b0acd2e58cc1b9e6fa92e23f72da86967c75",
-        "hash": "2818259436",
-        "path": "outstatic/content/pages/education.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Education",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "education",
-      "status": "published",
-      "title": "Education"
     },
     {
       "__outstatic": {
@@ -112,56 +58,57 @@
     },
     {
       "__outstatic": {
-        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
-        "hash": "3120460052",
-        "path": "outstatic/content/projects/example.md"
+        "commit": "c631b0acd2e58cc1b9e6fa92e23f72da86967c75",
+        "hash": "2818259436",
+        "path": "outstatic/content/pages/education.md"
       },
       "author": {
-        "name": "Kasper Welbers"
+        "name": "Kasper Welbers",
+        "picture": ""
       },
-      "collection": "projects",
-      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
-      "description": "Here we put a short description of the project.",
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Education",
       "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "example",
+      "slug": "education",
       "status": "published",
-      "title": "Project title goes here"
+      "title": "Education"
     },
     {
       "__outstatic": {
-        "commit": "89ad5dc3f1de054adf601ba248c05082a15d296d",
-        "hash": "2887620423",
-        "path": "outstatic/content/people/wouter-van-atteveldt.md"
+        "commit": "107abc5c6151ea118998c49e9214afb1d766dd3c",
+        "hash": "2804311180",
+        "path": "outstatic/content/pages/home.md"
       },
       "author": {
-        "name": "",
+        "name": "Kasper Welbers",
         "picture": ""
       },
-      "collection": "people",
-      "coverImage": "https://research.vu.nl/files-asset/22705903/Dr._Wouter_van_Atteveldt_tcm250_36346.jpg?w=160&f=webp",
-      "description": "",
-      "publishedAt": "2023-09-26T11:55:11.394Z",
-      "slug": "wouter-van-atteveldt",
-      "status": "draft",
-      "title": "Wouter van Atteveldt"
+      "collection": "pages",
+      "coverImage": "/images/logo_small.svg",
+      "description": "The VU FSW Societal Analytics Lab",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     },
     {
       "__outstatic": {
-        "commit": "9fc7891be2b0c8364c0c177a71b27f5cf0176b54",
-        "hash": "1117881720",
-        "path": "outstatic/content/people/sofia-gil-clavel.md"
+        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
+        "hash": "3337587396",
+        "path": "outstatic/content/pages/projects.md"
       },
       "author": {
-        "name": "",
+        "name": "Kasper Welbers",
         "picture": ""
       },
-      "collection": "people",
-      "coverImage": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp",
-      "description": "",
-      "publishedAt": "2024-11-26T11:55:11.394Z",
-      "slug": "sofia-gil-clavel",
-      "status": "draft",
-      "title": "Sofia Gil-Clavel"
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Projects",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "projects",
+      "status": "published",
+      "title": "Projects"
     },
     {
       "__outstatic": {
@@ -183,6 +130,41 @@
     },
     {
       "__outstatic": {
+        "commit": "89ad5dc3f1de054adf601ba248c05082a15d296d",
+        "hash": "2887620423",
+        "path": "outstatic/content/people/wouter-van-atteveldt.md"
+      },
+      "author": {
+        "name": "",
+        "picture": ""
+      },
+      "collection": "people",
+      "coverImage": "https://research.vu.nl/files-asset/22705903/Dr._Wouter_van_Atteveldt_tcm250_36346.jpg?w=160&f=webp",
+      "description": "",
+      "publishedAt": "2023-09-26T11:55:11.394Z",
+      "slug": "wouter-van-atteveldt",
+      "status": "draft",
+      "title": "Wouter van Atteveldt"
+    },
+    {
+      "__outstatic": {
+        "commit": "82cdb03e900e5fcc2ea47ca7434b4a87f6e3b0d6",
+        "hash": "3120460052",
+        "path": "outstatic/content/projects/example.md"
+      },
+      "author": {
+        "name": "Kasper Welbers"
+      },
+      "collection": "projects",
+      "coverImage": "https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "Project title goes here"
+    },
+    {
+      "__outstatic": {
         "commit": "a9a15b69bf6ab445bd7eea7efbc80c6f5fa06bfc",
         "hash": "1278618927",
         "path": "outstatic/content/pages/services.md"
@@ -198,6 +180,42 @@
       "slug": "services",
       "status": "published",
       "title": "Services"
+    },
+    {
+      "__outstatic": {
+        "commit": "9fc7891be2b0c8364c0c177a71b27f5cf0176b54",
+        "hash": "1117881720",
+        "path": "outstatic/content/people/sofia-gil-clavel.md"
+      },
+      "author": {
+        "name": "",
+        "picture": ""
+      },
+      "collection": "people",
+      "coverImage": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp",
+      "description": "",
+      "publishedAt": "2024-11-26T11:55:11.394Z",
+      "slug": "sofia-gil-clavel",
+      "status": "draft",
+      "title": "Sofia Gil-Clavel"
+    },
+    {
+      "__outstatic": {
+        "commit": "899fefc07dca7426eafff00e1e82e1d1447e6d9e",
+        "hash": "3800419676",
+        "path": "outstatic/content/services/example.md"
+      },
+      "author": {
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
+      },
+      "collection": "services",
+      "coverImage": "/images/logo-cwMj.svg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2025-01-29T05:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
     },
     {
       "__outstatic": {
@@ -237,24 +255,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e069b4190fadb49423055a7a6b053034f7885750",
-        "hash": "1889338357",
-        "path": "outstatic/content/services/data-donation.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
-      },
-      "collection": "services",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-01-29T15:47:03.315Z",
-      "slug": "data-donation",
-      "status": "draft",
-      "title": "Data Donation"
-    },
-    {
-      "__outstatic": {
         "commit": "66b147f7d319bff8eea7e8be93e54e8b5a573d27",
         "hash": "2289702621",
         "path": "outstatic/content/services/crowd-annotation-with-annocate.md"
@@ -273,21 +273,21 @@
     },
     {
       "__outstatic": {
-        "commit": "030d94e42c8554e9a850d0f5f123a07e8b0f37c0",
-        "hash": "1608114938",
-        "path": "outstatic/content/services/example.md"
+        "commit": "e069b4190fadb49423055a7a6b053034f7885750",
+        "hash": "1889338357",
+        "path": "outstatic/content/services/data-donation.md"
       },
       "author": {
-        "name": "Sofia Gil-Clavel",
-        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
       },
       "collection": "services",
-      "coverImage": "/images/logo-cwMj.svg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2025-01-29T05:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-01-29T15:47:03.315Z",
+      "slug": "data-donation",
+      "status": "draft",
+      "title": "Data Donation"
     }
   ]
 }
