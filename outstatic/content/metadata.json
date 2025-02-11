@@ -1,6 +1,6 @@
 {
-  "commit": "5b0c173a2ca0286389eea59fc06fe1699b875885",
-  "generated": "Wed, 29 Jan 2025 16:07:32 GMT",
+  "commit": "030d94e42c8554e9a850d0f5f123a07e8b0f37c0",
+  "generated": "2025-02-11T09:50:25.044Z",
   "metadata": [
     {
       "__outstatic": {
@@ -237,24 +237,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1635819c9d140f4414f4eac09efab0c30dd574a6",
-        "hash": "3800419676",
-        "path": "outstatic/content/services/example.md"
-      },
-      "author": {
-        "name": "Sofia Gil-Clavel",
-        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
-      },
-      "collection": "services",
-      "coverImage": "/images/logo-cwMj.svg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2025-01-29T05:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
-    },
-    {
-      "__outstatic": {
         "commit": "e069b4190fadb49423055a7a6b053034f7885750",
         "hash": "1889338357",
         "path": "outstatic/content/services/data-donation.md"
@@ -288,6 +270,24 @@
       "slug": "crowd-annotation-with-annocate",
       "status": "draft",
       "title": "Crowd-annotation with AnnoCate"
+    },
+    {
+      "__outstatic": {
+        "commit": "030d94e42c8554e9a850d0f5f123a07e8b0f37c0",
+        "hash": "1608114938",
+        "path": "outstatic/content/services/example.md"
+      },
+      "author": {
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
+      },
+      "collection": "services",
+      "coverImage": "/images/logo-cwMj.svg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2025-01-29T05:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
     }
   ]
 }

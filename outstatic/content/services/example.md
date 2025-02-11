@@ -10,6 +10,8 @@ slug: 'example'
 publishedAt: '2025-01-29T05:35:07.000Z'
 ---
 
+The cover image is from &lt;a href="https://commons.wikimedia.org/wiki/File:IdeaLab_space_cat.svg"&gt;https://commons.wikimedia.org/wiki/File:IdeaLab_space_cat.svg&lt;/a&gt;.
+
 So, you have been gathering a huge dataset consisting of continuously retrieved social media posts. But now, you cannot analyze it in your local computer because you do not have a large enough RAM. What should you do?
 
 One possible answer is to upload the data into a server and then perform the analysis from there. But, now that you have done it, you realized that you need and extra skill: “Big Textual Data Handling” ... So, now what?
@@ -56,12 +58,10 @@ Elasticsearch (therefore, AmCAT) main feature is the speed at which searches are
 
 The *Aggregate* option (Figure 6) allows users to analyse and visualize the data in an interactive manner. The GUI gives access to the following visualizations: Line Graph, Bar Chart, List, and Table. In terms of analyses, it only allows to count/aggregate the values, which is already useful to get a quick understanding of the data!
 
- ![](/images/image-Q3OD.png)
+![](/images/image-Q3OD.png)
 
 **Figure 6:** AmCAT Aggregate option applied to the Dutch News database.
 
 ## References
 
 - Gormley, C., & Tong, Z. (2015). Elasticsearch: The definitive guide; \[a distributed real-time search and analytics engine\] (1. ed). O’Reilly.
-
- 
