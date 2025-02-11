@@ -1,6 +1,6 @@
 {
-  "commit": "22d4371de4c9b502c0cb7cb0a86f2ce446b455ea",
-  "generated": "2025-02-11T09:52:21.195Z",
+  "commit": "d956973a10579c761bc70942af04db8191b83b10",
+  "generated": "Tue, 11 Feb 2025 09:52:35 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -40,21 +40,21 @@
     },
     {
       "__outstatic": {
-        "commit": "7feb75f4757407a33d0e70ed64e02f9a6e8724b2",
-        "hash": "2060247466",
-        "path": "outstatic/content/pages/contact.md"
+        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
+        "hash": "3337587396",
+        "path": "outstatic/content/pages/projects.md"
       },
       "author": {
-        "name": "Nel Ruigrok",
+        "name": "Kasper Welbers",
         "picture": ""
       },
       "collection": "pages",
-      "coverImage": "/images/logo.svg",
-      "description": "Neem contact op",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "contact",
+      "coverImage": "",
+      "description": "Projects",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "projects",
       "status": "published",
-      "title": "Contact"
+      "title": "Projects"
     },
     {
       "__outstatic": {
@@ -94,21 +94,21 @@
     },
     {
       "__outstatic": {
-        "commit": "360262e24c75dab5e4e5f4d25da7943b72b51ddd",
-        "hash": "3337587396",
-        "path": "outstatic/content/pages/projects.md"
+        "commit": "7feb75f4757407a33d0e70ed64e02f9a6e8724b2",
+        "hash": "2060247466",
+        "path": "outstatic/content/pages/contact.md"
       },
       "author": {
-        "name": "Kasper Welbers",
+        "name": "Nel Ruigrok",
         "picture": ""
       },
       "collection": "pages",
-      "coverImage": "",
-      "description": "Projects",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "projects",
+      "coverImage": "/images/logo.svg",
+      "description": "Neem contact op",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "contact",
       "status": "published",
-      "title": "Projects"
+      "title": "Contact"
     },
     {
       "__outstatic": {
@@ -127,6 +127,24 @@
       "slug": "kasper-welbers",
       "status": "draft",
       "title": "Kasper Welbers"
+    },
+    {
+      "__outstatic": {
+        "commit": "a9a15b69bf6ab445bd7eea7efbc80c6f5fa06bfc",
+        "hash": "1278618927",
+        "path": "outstatic/content/pages/services.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Services",
+      "publishedAt": "2023-09-21T04:35:07.000Z",
+      "slug": "services",
+      "status": "published",
+      "title": "Services"
     },
     {
       "__outstatic": {
@@ -162,24 +180,6 @@
       "slug": "example",
       "status": "published",
       "title": "Project title goes here"
-    },
-    {
-      "__outstatic": {
-        "commit": "a9a15b69bf6ab445bd7eea7efbc80c6f5fa06bfc",
-        "hash": "1278618927",
-        "path": "outstatic/content/pages/services.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Services",
-      "publishedAt": "2023-09-21T04:35:07.000Z",
-      "slug": "services",
-      "status": "published",
-      "title": "Services"
     },
     {
       "__outstatic": {
@@ -219,9 +219,9 @@
     },
     {
       "__outstatic": {
-        "commit": "1fa04b73923bc2c2f261fb6aee6586d86167e07f",
-        "hash": "3205257646",
-        "path": "outstatic/content/services/grant-support.md"
+        "commit": "e069b4190fadb49423055a7a6b053034f7885750",
+        "hash": "1889338357",
+        "path": "outstatic/content/services/data-donation.md"
       },
       "author": {
         "name": "Kasper Welbers",
@@ -230,10 +230,10 @@
       "collection": "services",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-01-29T15:23:27.629Z",
-      "slug": "grant-support",
+      "publishedAt": "2024-01-29T15:47:03.315Z",
+      "slug": "data-donation",
       "status": "draft",
-      "title": "Grant support"
+      "title": "Data Donation"
     },
     {
       "__outstatic": {
@@ -255,25 +255,7 @@
     },
     {
       "__outstatic": {
-        "commit": "e069b4190fadb49423055a7a6b053034f7885750",
-        "hash": "1889338357",
-        "path": "outstatic/content/services/data-donation.md"
-      },
-      "author": {
-        "name": "Kasper Welbers",
-        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
-      },
-      "collection": "services",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-01-29T15:47:03.315Z",
-      "slug": "data-donation",
-      "status": "draft",
-      "title": "Data Donation"
-    },
-    {
-      "__outstatic": {
-        "commit": "22d4371de4c9b502c0cb7cb0a86f2ce446b455ea",
+        "commit": "ee7e5ac63d981cdfee1a363cf4f6d2e3819aa9fe",
         "hash": "2300093457",
         "path": "outstatic/content/services/example.md"
       },
@@ -288,6 +270,24 @@
       "slug": "example",
       "status": "published",
       "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
+    },
+    {
+      "__outstatic": {
+        "commit": "1fa04b73923bc2c2f261fb6aee6586d86167e07f",
+        "hash": "3205257646",
+        "path": "outstatic/content/services/grant-support.md"
+      },
+      "author": {
+        "name": "Kasper Welbers",
+        "picture": "https://avatars.githubusercontent.com/u/6179240?v=4"
+      },
+      "collection": "services",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-01-29T15:23:27.629Z",
+      "slug": "grant-support",
+      "status": "draft",
+      "title": "Grant support"
     }
   ]
 }
