@@ -10,7 +10,7 @@ slug: 'example'
 publishedAt: '2025-01-29T05:35:07.000Z'
 ---
 
-The cover image is from &lt;a href="https://commons.wikimedia.org/wiki/File:IdeaLab_space_cat.svg"&gt;https://commons.wikimedia.org/wiki/File:IdeaLab_space_cat.svg&lt;/a&gt;.
+The cover image is from <https://commons.wikimedia.org/wiki/File:IdeaLab_space_cat.svg>
 
 So, you have been gathering a huge dataset consisting of continuously retrieved social media posts. But now, you cannot analyze it in your local computer because you do not have a large enough RAM. What should you do?
 

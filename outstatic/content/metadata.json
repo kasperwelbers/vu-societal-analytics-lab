@@ -1,6 +1,6 @@
 {
-  "commit": "5a9d43165f7af5cfbb22cb3351f9fda5c91b4498",
-  "generated": "Tue, 11 Feb 2025 09:50:51 GMT",
+  "commit": "22d4371de4c9b502c0cb7cb0a86f2ce446b455ea",
+  "generated": "2025-02-11T09:52:21.195Z",
   "metadata": [
     {
       "__outstatic": {
@@ -201,24 +201,6 @@
     },
     {
       "__outstatic": {
-        "commit": "899fefc07dca7426eafff00e1e82e1d1447e6d9e",
-        "hash": "3800419676",
-        "path": "outstatic/content/services/example.md"
-      },
-      "author": {
-        "name": "Sofia Gil-Clavel",
-        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
-      },
-      "collection": "services",
-      "coverImage": "/images/logo-cwMj.svg",
-      "description": "Here we put a short description of the project.",
-      "publishedAt": "2025-01-29T05:35:07.000Z",
-      "slug": "example",
-      "status": "published",
-      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
-    },
-    {
-      "__outstatic": {
         "commit": "c7d04277f616cc85c34ed374945719abaeefd396",
         "hash": "1062798162",
         "path": "outstatic/content/services/constrained-by-computing-power-we-can-help-you.md"
@@ -288,6 +270,24 @@
       "slug": "data-donation",
       "status": "draft",
       "title": "Data Donation"
+    },
+    {
+      "__outstatic": {
+        "commit": "22d4371de4c9b502c0cb7cb0a86f2ce446b455ea",
+        "hash": "2300093457",
+        "path": "outstatic/content/services/example.md"
+      },
+      "author": {
+        "name": "Sofia Gil-Clavel",
+        "picture": "https://research.vu.nl/files-asset/369047881/SofiaGilClavel.jpg?w=160&f=webp"
+      },
+      "collection": "services",
+      "coverImage": "/images/logo-cwMj.svg",
+      "description": "Here we put a short description of the project.",
+      "publishedAt": "2025-01-29T05:35:07.000Z",
+      "slug": "example",
+      "status": "published",
+      "title": "AmCAT - The Amsterdam Content Analysis Toolkit"
     }
   ]
 }
